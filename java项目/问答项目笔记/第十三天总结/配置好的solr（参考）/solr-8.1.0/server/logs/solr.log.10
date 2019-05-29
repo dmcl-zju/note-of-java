@@ -1,0 +1,885 @@
+2019-05-29 09:46:44.663 INFO  (main) [   ] o.e.j.u.log Logging initialized @1866ms to org.eclipse.jetty.util.log.Slf4jLog
+2019-05-29 09:46:45.040 WARN  (main) [   ] o.e.j.s.AbstractConnector Ignoring deprecated socket close linger time
+2019-05-29 09:46:45.057 INFO  (main) [   ] o.e.j.s.Server jetty-9.4.14.v20181114; built: 2018-11-14T21:20:31.478Z; git: c4550056e785fb5665914545889f21dc136ad9e6; jvm 1.8.0_131-b11
+2019-05-29 09:46:45.177 INFO  (main) [   ] o.e.j.d.p.ScanningAppProvider Deployment monitor [file:///E:/solr-8.1.0/server/contexts/] at interval 0
+2019-05-29 09:46:46.248 INFO  (main) [   ] o.e.j.w.StandardDescriptorProcessor NO JSP Support for /solr, did not find org.apache.jasper.servlet.JspServlet
+2019-05-29 09:46:46.266 INFO  (main) [   ] o.e.j.s.session DefaultSessionIdManager workerName=node0
+2019-05-29 09:46:46.266 INFO  (main) [   ] o.e.j.s.session No SessionScavenger set, using defaults
+2019-05-29 09:46:46.268 INFO  (main) [   ] o.e.j.s.session node0 Scavenging every 660000ms
+2019-05-29 09:46:46.502 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter Using logger factory org.apache.logging.slf4j.Log4jLoggerFactory
+2019-05-29 09:46:46.513 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter  ___      _       Welcome to Apache Solr? version 8.1.0
+2019-05-29 09:46:46.513 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter / __| ___| |_ _   Starting in standalone mode on port 8983
+2019-05-29 09:46:46.513 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter \__ \/ _ \ | '_|  Install dir: E:\solr-8.1.0
+2019-05-29 09:46:46.540 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter |___/\___/_|_|    Start time: 2019-05-29T09:46:46.540Z
+2019-05-29 09:46:46.616 INFO  (main) [   ] o.a.s.c.SolrResourceLoader Using system property solr.solr.home: E:\solr-8.1.0\server\solr
+2019-05-29 09:46:46.627 INFO  (main) [   ] o.a.s.c.SolrXmlConfig Loading container configuration from E:\solr-8.1.0\server\solr\solr.xml
+2019-05-29 09:46:46.810 INFO  (main) [   ] o.a.s.c.SolrXmlConfig MBean server found: com.sun.jmx.mbeanserver.JmxMBeanServer@6295d394, but no JMX reporters were configured - adding default JMX reporter.
+2019-05-29 09:46:47.532 INFO  (main) [   ] o.a.s.h.c.HttpShardHandlerFactory Host whitelist initialized: WhitelistHostChecker [whitelistHosts=null, whitelistHostCheckingEnabled=true]
+2019-05-29 09:46:48.105 WARN  (main) [   ] o.e.j.u.s.S.config No Client EndPointIdentificationAlgorithm configured for SslContextFactory@50468873[provider=null,keyStore=null,trustStore=null]
+2019-05-29 09:46:48.247 WARN  (main) [   ] o.e.j.u.s.S.config No Client EndPointIdentificationAlgorithm configured for SslContextFactory@1755e85b[provider=null,keyStore=null,trustStore=null]
+2019-05-29 09:46:48.760 INFO  (main) [   ] o.a.s.c.TransientSolrCoreCacheDefault Allocating transient cache for 2147483647 transient cores
+2019-05-29 09:46:48.769 INFO  (main) [   ] o.a.s.h.a.MetricsHistoryHandler No .system collection, keeping metrics history in memory.
+2019-05-29 09:46:48.871 INFO  (main) [   ] o.a.s.m.r.SolrJmxReporter JMX monitoring for 'solr.node' (registry 'solr.node') enabled at server: com.sun.jmx.mbeanserver.JmxMBeanServer@6295d394
+2019-05-29 09:46:48.872 INFO  (main) [   ] o.a.s.m.r.SolrJmxReporter JMX monitoring for 'solr.jvm' (registry 'solr.jvm') enabled at server: com.sun.jmx.mbeanserver.JmxMBeanServer@6295d394
+2019-05-29 09:46:48.877 INFO  (main) [   ] o.a.s.m.r.SolrJmxReporter JMX monitoring for 'solr.jetty' (registry 'solr.jetty') enabled at server: com.sun.jmx.mbeanserver.JmxMBeanServer@6295d394
+2019-05-29 09:46:49.244 INFO  (main) [   ] o.a.s.c.CorePropertiesLocator Found 1 core definitions underneath E:\solr-8.1.0\server\solr
+2019-05-29 09:46:49.245 INFO  (main) [   ] o.a.s.c.CorePropertiesLocator Cores are: [mywenda]
+2019-05-29 09:46:49.592 INFO  (coreLoadExecutor-9-thread-1) [   x:mywenda] o.a.s.c.SolrResourceLoader [mywenda] Added 61 libs to classloader, from paths: [/E:/solr-8.1.0/contrib/clustering/lib, /E:/solr-8.1.0/contrib/extraction/lib, /E:/solr-8.1.0/contrib/langid/lib, /E:/solr-8.1.0/contrib/velocity/lib, /E:/solr-8.1.0/dist]
+2019-05-29 09:46:51.302 INFO  (coreLoadExecutor-9-thread-1) [   x:mywenda] o.a.s.c.SolrConfig Using Lucene MatchVersion: 8.1.0
+2019-05-29 09:46:52.184 INFO  (coreLoadExecutor-9-thread-1) [   x:mywenda] o.a.s.s.IndexSchema [mywenda] Schema name=default-config
+2019-05-29 09:46:55.689 INFO  (coreLoadExecutor-9-thread-1) [   x:mywenda] o.a.s.s.IndexSchema Loaded schema default-config/1.6 with uniqueid field id
+2019-05-29 09:46:55.757 INFO  (coreLoadExecutor-9-thread-1) [   x:mywenda] o.a.s.c.CoreContainer Creating SolrCore 'mywenda' using configuration from instancedir E:\solr-8.1.0\server\solr\mywenda, trusted=true
+2019-05-29 09:46:56.044 INFO  (coreLoadExecutor-9-thread-1) [   x:mywenda] o.a.s.m.r.SolrJmxReporter JMX monitoring for 'solr.core.mywenda' (registry 'solr.core.mywenda') enabled at server: com.sun.jmx.mbeanserver.JmxMBeanServer@6295d394
+2019-05-29 09:46:56.230 INFO  (coreLoadExecutor-9-thread-1) [   x:mywenda] o.a.s.c.SolrCore [[mywenda] ] Opening new SolrCore at [E:\solr-8.1.0\server\solr\mywenda], dataDir=[E:\solr-8.1.0\server\solr\mywenda\data\]
+2019-05-29 09:46:56.427 INFO  (main) [   ] o.e.j.s.h.ContextHandler Started o.e.j.w.WebAppContext@306f16f3{/solr,file:///E:/solr-8.1.0/server/solr-webapp/webapp/,AVAILABLE}{E:\solr-8.1.0\server/solr-webapp/webapp}
+2019-05-29 09:46:56.438 INFO  (main) [   ] o.e.j.s.AbstractConnector Started ServerConnector@e24ddd0{HTTP/1.1,[http/1.1, h2c]}{0.0.0.0:8983}
+2019-05-29 09:46:56.438 INFO  (main) [   ] o.e.j.s.Server Started @13643ms
+2019-05-29 09:46:56.462 INFO  (coreLoadExecutor-9-thread-1) [   x:mywenda] o.a.s.r.XSLTResponseWriter xsltCacheLifetimeSeconds=5
+2019-05-29 09:46:57.282 INFO  (qtp203849460-20) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json} status=0 QTime=63
+2019-05-29 09:46:57.390 INFO  (coreLoadExecutor-9-thread-1) [   x:mywenda] o.a.s.u.UpdateHandler Using UpdateLog implementation: org.apache.solr.update.UpdateLog
+2019-05-29 09:46:57.390 INFO  (coreLoadExecutor-9-thread-1) [   x:mywenda] o.a.s.u.UpdateLog Initializing UpdateLog: dataDir= defaultSyncLevel=FLUSH numRecordsToKeep=100 maxNumLogsToKeep=10 numVersionBuckets=65536
+2019-05-29 09:46:57.433 INFO  (coreLoadExecutor-9-thread-1) [   x:mywenda] o.a.s.u.CommitTracker Hard AutoCommit: if uncommitted for 15000ms; 
+2019-05-29 09:46:57.433 INFO  (coreLoadExecutor-9-thread-1) [   x:mywenda] o.a.s.u.CommitTracker Soft AutoCommit: disabled
+2019-05-29 09:46:57.725 INFO  (coreLoadExecutor-9-thread-1) [   x:mywenda] o.a.s.s.SolrIndexSearcher Opening [Searcher@48bae7ce[mywenda] main]
+2019-05-29 09:46:57.762 INFO  (coreLoadExecutor-9-thread-1) [   x:mywenda] o.a.s.r.ManagedResourceStorage File-based storage initialized to use dir: E:\solr-8.1.0\server\solr\mywenda\conf
+2019-05-29 09:46:57.789 INFO  (coreLoadExecutor-9-thread-1) [   x:mywenda] o.a.s.h.c.SpellCheckComponent Initializing spell checkers
+2019-05-29 09:46:57.795 INFO  (coreLoadExecutor-9-thread-1) [   x:mywenda] o.a.s.s.DirectSolrSpellChecker init: {name=default,field=_text_,classname=solr.DirectSolrSpellChecker,distanceMeasure=internal,accuracy=0.5,maxEdits=2,minPrefix=1,maxInspections=5,minQueryLength=4,maxQueryFrequency=0.01}
+2019-05-29 09:46:57.814 INFO  (coreLoadExecutor-9-thread-1) [   x:mywenda] o.a.s.h.ReplicationHandler Commits will be reserved for 10000ms.
+2019-05-29 09:46:57.837 INFO  (searcherExecutor-10-thread-1-processing-x:mywenda) [   x:mywenda] o.a.s.c.QuerySenderListener QuerySenderListener sending requests to Searcher@48bae7ce[mywenda] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_8(8.1.0):C18:[diagnostics={java.vendor=Oracle Corporation, os=Windows 10, java.version=1.8.0_131, java.vm.version=25.131-b11, lucene.version=8.1.0, os.arch=amd64, java.runtime.version=1.8.0_131-b11, source=flush, os.version=10.0, timestamp=1559120253380}]:[attributes={Lucene50StoredFieldsFormat.mode=BEST_SPEED}])))}
+2019-05-29 09:46:57.837 INFO  (searcherExecutor-10-thread-1-processing-x:mywenda) [   x:mywenda] o.a.s.c.QuerySenderListener QuerySenderListener done.
+2019-05-29 09:46:57.837 INFO  (searcherExecutor-10-thread-1-processing-x:mywenda) [   x:mywenda] o.a.s.h.c.SpellCheckComponent Loading spell index for spellchecker: default
+2019-05-29 09:46:57.845 INFO  (searcherExecutor-10-thread-1-processing-x:mywenda) [   x:mywenda] o.a.s.c.SolrCore [mywenda] Registered new searcher Searcher@48bae7ce[mywenda] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_8(8.1.0):C18:[diagnostics={java.vendor=Oracle Corporation, os=Windows 10, java.version=1.8.0_131, java.vm.version=25.131-b11, lucene.version=8.1.0, os.arch=amd64, java.runtime.version=1.8.0_131-b11, source=flush, os.version=10.0, timestamp=1559120253380}]:[attributes={Lucene50StoredFieldsFormat.mode=BEST_SPEED}])))}
+2019-05-29 09:47:07.014 INFO  (qtp203849460-15) [   x:mywenda] o.a.s.c.S.Request [mywenda]  webapp=/solr path=/select params={q=java&hl=true&hl.simple.post=</em>&fl=question_content,question_title&start=0&hl.fl=question_title,question_content&rows=10&wt=javabin&version=2&hl.simple.pre=<em>} hits=0 status=0 QTime=2281
+2019-05-29 09:47:17.543 INFO  (qtp203849460-21) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1559123237406} status=0 QTime=1
+2019-05-29 09:47:17.547 INFO  (qtp203849460-24) [   x:mywenda] o.a.s.c.S.Request [mywenda]  webapp=/solr path=/admin/mbeans params={cat=QUERY&wt=json&_=1559123237520} status=0 QTime=0
+2019-05-29 09:47:17.559 INFO  (qtp203849460-21) [   x:mywenda] o.a.s.c.S.Request [mywenda]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=show-config&_=1559123237520} status=0 QTime=6
+2019-05-29 09:47:17.595 INFO  (qtp203849460-21) [   x:mywenda] o.a.s.c.S.Request [mywenda]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1559123237520} status=0 QTime=0
+2019-05-29 09:47:17.626 INFO  (qtp203849460-22) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1559123237407} status=0 QTime=80
+2019-05-29 09:47:29.361 INFO  (qtp203849460-20) [   x:mywenda] o.a.s.h.d.DataImporter Loading DIH Configuration: data-config.xml
+2019-05-29 09:47:29.383 INFO  (qtp203849460-20) [   x:mywenda] o.a.s.h.d.c.DIHConfiguration id is a required field in SolrSchema . But not found in DataConfig
+2019-05-29 09:47:29.383 INFO  (qtp203849460-20) [   x:mywenda] o.a.s.h.d.DataImporter Data Configuration loaded successfully
+2019-05-29 09:47:29.416 INFO  (Thread-14) [   ] o.a.s.h.d.DataImporter Starting Full Import
+2019-05-29 09:47:29.416 INFO  (qtp203849460-20) [   x:mywenda] o.a.s.c.S.Request [mywenda]  webapp=/solr path=/dataimport params={core=mywenda&indent=on&commit=true&name=dataimport&clean=true&rows=30&wt=json&command=full-import&entity=question&_=1559123237520&verbose=false} status=0 QTime=58
+2019-05-29 09:47:29.422 INFO  (qtp203849460-24) [   x:mywenda] o.a.s.c.S.Request [mywenda]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1559123237520} status=0 QTime=0
+2019-05-29 09:47:29.526 INFO  (Thread-14) [   ] o.a.s.h.d.SimplePropertiesWriter Read dataimport.properties
+2019-05-29 09:47:29.739 INFO  (Thread-14) [   ] o.a.s.s.SolrIndexSearcher Opening [Searcher@6d32820e[mywenda] realtime]
+2019-05-29 09:47:29.904 INFO  (Thread-14) [   ] o.a.s.h.d.JdbcDataSource Creating a connection for entity question with URL: jdbc:mysql://localhost:3306/wenda
+2019-05-29 09:47:30.141 INFO  (Thread-14) [   ] o.a.s.h.d.JdbcDataSource Time taken for getConnection(): 236
+2019-05-29 09:47:30.151 ERROR (Thread-14) [   ] o.a.s.h.d.DocBuilder Exception while processing: question document : SolrInputDocument(fields: []):org.apache.solr.handler.dataimport.DataImportHandlerException: Unable to execute query: select id,title,content from question Processing Document # 1
+	at org.apache.solr.handler.dataimport.DataImportHandlerException.wrapAndThrow(DataImportHandlerException.java:69)
+	at org.apache.solr.handler.dataimport.JdbcDataSource$ResultSetIterator.<init>(JdbcDataSource.java:327)
+	at org.apache.solr.handler.dataimport.JdbcDataSource.createResultSetIterator(JdbcDataSource.java:288)
+	at org.apache.solr.handler.dataimport.JdbcDataSource.getData(JdbcDataSource.java:283)
+	at org.apache.solr.handler.dataimport.JdbcDataSource.getData(JdbcDataSource.java:52)
+	at org.apache.solr.handler.dataimport.SqlEntityProcessor.initQuery(SqlEntityProcessor.java:59)
+	at org.apache.solr.handler.dataimport.SqlEntityProcessor.nextRow(SqlEntityProcessor.java:73)
+	at org.apache.solr.handler.dataimport.EntityProcessorWrapper.nextRow(EntityProcessorWrapper.java:267)
+	at org.apache.solr.handler.dataimport.DocBuilder.buildDocument(DocBuilder.java:476)
+	at org.apache.solr.handler.dataimport.DocBuilder.buildDocument(DocBuilder.java:415)
+	at org.apache.solr.handler.dataimport.DocBuilder.doFullDump(DocBuilder.java:330)
+	at org.apache.solr.handler.dataimport.DocBuilder.execute(DocBuilder.java:233)
+	at org.apache.solr.handler.dataimport.DataImporter.doFullImport(DataImporter.java:424)
+	at org.apache.solr.handler.dataimport.DataImporter.runCmd(DataImporter.java:483)
+	at org.apache.solr.handler.dataimport.DataImporter.lambda$runAsync$0(DataImporter.java:466)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.sql.SQLException: Illegal value for setFetchSize().
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:965)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:898)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:887)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:861)
+	at com.mysql.jdbc.StatementImpl.setFetchSize(StatementImpl.java:2317)
+	at org.apache.solr.handler.dataimport.JdbcDataSource$ResultSetIterator.createStatement(JdbcDataSource.java:343)
+	at org.apache.solr.handler.dataimport.JdbcDataSource$ResultSetIterator.<init>(JdbcDataSource.java:318)
+	... 14 more
+
+2019-05-29 09:47:30.151 INFO  (Thread-14) [   ] o.a.s.u.p.LogUpdateProcessorFactory [mywenda]  webapp=/solr path=/dataimport params={core=mywenda&indent=on&commit=true&name=dataimport&clean=true&rows=30&wt=json&command=full-import&entity=question&_=1559123237520&verbose=false} status=0 QTime=58{deleteByQuery=*:* (-1634859220630241280)} 0 792
+2019-05-29 09:47:30.153 ERROR (Thread-14) [   ] o.a.s.h.d.DataImporter Full Import failed:java.lang.RuntimeException: java.lang.RuntimeException: org.apache.solr.handler.dataimport.DataImportHandlerException: Unable to execute query: select id,title,content from question Processing Document # 1
+	at org.apache.solr.handler.dataimport.DocBuilder.execute(DocBuilder.java:271)
+	at org.apache.solr.handler.dataimport.DataImporter.doFullImport(DataImporter.java:424)
+	at org.apache.solr.handler.dataimport.DataImporter.runCmd(DataImporter.java:483)
+	at org.apache.solr.handler.dataimport.DataImporter.lambda$runAsync$0(DataImporter.java:466)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.RuntimeException: org.apache.solr.handler.dataimport.DataImportHandlerException: Unable to execute query: select id,title,content from question Processing Document # 1
+	at org.apache.solr.handler.dataimport.DocBuilder.buildDocument(DocBuilder.java:417)
+	at org.apache.solr.handler.dataimport.DocBuilder.doFullDump(DocBuilder.java:330)
+	at org.apache.solr.handler.dataimport.DocBuilder.execute(DocBuilder.java:233)
+	... 4 more
+Caused by: org.apache.solr.handler.dataimport.DataImportHandlerException: Unable to execute query: select id,title,content from question Processing Document # 1
+	at org.apache.solr.handler.dataimport.DataImportHandlerException.wrapAndThrow(DataImportHandlerException.java:69)
+	at org.apache.solr.handler.dataimport.JdbcDataSource$ResultSetIterator.<init>(JdbcDataSource.java:327)
+	at org.apache.solr.handler.dataimport.JdbcDataSource.createResultSetIterator(JdbcDataSource.java:288)
+	at org.apache.solr.handler.dataimport.JdbcDataSource.getData(JdbcDataSource.java:283)
+	at org.apache.solr.handler.dataimport.JdbcDataSource.getData(JdbcDataSource.java:52)
+	at org.apache.solr.handler.dataimport.SqlEntityProcessor.initQuery(SqlEntityProcessor.java:59)
+	at org.apache.solr.handler.dataimport.SqlEntityProcessor.nextRow(SqlEntityProcessor.java:73)
+	at org.apache.solr.handler.dataimport.EntityProcessorWrapper.nextRow(EntityProcessorWrapper.java:267)
+	at org.apache.solr.handler.dataimport.DocBuilder.buildDocument(DocBuilder.java:476)
+	at org.apache.solr.handler.dataimport.DocBuilder.buildDocument(DocBuilder.java:415)
+	... 6 more
+Caused by: java.sql.SQLException: Illegal value for setFetchSize().
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:965)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:898)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:887)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:861)
+	at com.mysql.jdbc.StatementImpl.setFetchSize(StatementImpl.java:2317)
+	at org.apache.solr.handler.dataimport.JdbcDataSource$ResultSetIterator.createStatement(JdbcDataSource.java:343)
+	at org.apache.solr.handler.dataimport.JdbcDataSource$ResultSetIterator.<init>(JdbcDataSource.java:318)
+	... 14 more
+
+2019-05-29 09:47:30.154 INFO  (Thread-14) [   ] o.a.s.u.DirectUpdateHandler2 start rollback{}
+2019-05-29 09:47:30.162 INFO  (Thread-14) [   ] o.a.s.u.DefaultSolrCoreState New IndexWriter is ready to be used.
+2019-05-29 09:47:30.163 INFO  (Thread-14) [   ] o.a.s.u.DirectUpdateHandler2 end_rollback
+2019-05-29 09:47:41.015 INFO  (qtp203849460-19) [   x:mywenda] o.a.s.c.S.Request [mywenda]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1559123237520} status=0 QTime=0
+2019-05-29 09:48:46.952 INFO  (qtp203849460-20) [   x:mywenda] o.a.s.h.d.DataImporter Loading DIH Configuration: data-config.xml
+2019-05-29 09:48:46.957 INFO  (qtp203849460-20) [   x:mywenda] o.a.s.h.d.c.DIHConfiguration id is a required field in SolrSchema . But not found in DataConfig
+2019-05-29 09:48:46.957 INFO  (qtp203849460-20) [   x:mywenda] o.a.s.h.d.DataImporter Data Configuration loaded successfully
+2019-05-29 09:48:46.958 INFO  (qtp203849460-20) [   x:mywenda] o.a.s.h.d.DataImporter Starting Full Import
+2019-05-29 09:48:46.958 INFO  (qtp203849460-20) [   x:mywenda] o.a.s.h.d.SimplePropertiesWriter Read dataimport.properties
+2019-05-29 09:48:46.971 INFO  (qtp203849460-20) [   x:mywenda] o.a.s.s.SolrIndexSearcher Opening [Searcher@2fef264a[mywenda] realtime]
+2019-05-29 09:48:46.981 INFO  (qtp203849460-24) [   x:mywenda] o.a.s.c.S.Request [mywenda]  webapp=/solr path=/dataimport params={core=mywenda&debug=true&indent=on&commit=true&name=dataimport&clean=true&rows=30&wt=json&command=full-import&entity=question&_=1559123237520&verbose=false} status=0 QTime=0
+2019-05-29 09:48:46.987 INFO  (qtp203849460-21) [   x:mywenda] o.a.s.c.S.Request [mywenda]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1559123237520} status=0 QTime=0
+2019-05-29 09:48:46.998 INFO  (qtp203849460-20) [   x:mywenda] o.a.s.s.SolrIndexSearcher Opening [Searcher@62f0fd1d[mywenda] realtime]
+2019-05-29 09:48:47.002 INFO  (qtp203849460-20) [   x:mywenda] o.a.s.h.d.JdbcDataSource Creating a connection for entity question with URL: jdbc:mysql://localhost:3306/wenda
+2019-05-29 09:48:47.013 INFO  (qtp203849460-20) [   x:mywenda] o.a.s.h.d.JdbcDataSource Time taken for getConnection(): 10
+2019-05-29 09:48:47.014 ERROR (qtp203849460-20) [   x:mywenda] o.a.s.h.d.DocBuilder Exception while processing: question document : SolrInputDocument(fields: []):org.apache.solr.handler.dataimport.DataImportHandlerException: Unable to execute query: select id,title,content from question Processing Document # 1
+	at org.apache.solr.handler.dataimport.DataImportHandlerException.wrapAndThrow(DataImportHandlerException.java:69)
+	at org.apache.solr.handler.dataimport.JdbcDataSource$ResultSetIterator.<init>(JdbcDataSource.java:327)
+	at org.apache.solr.handler.dataimport.JdbcDataSource.createResultSetIterator(JdbcDataSource.java:288)
+	at org.apache.solr.handler.dataimport.JdbcDataSource.getData(JdbcDataSource.java:283)
+	at org.apache.solr.handler.dataimport.JdbcDataSource.getData(JdbcDataSource.java:52)
+	at org.apache.solr.handler.dataimport.SqlEntityProcessor.initQuery(SqlEntityProcessor.java:59)
+	at org.apache.solr.handler.dataimport.SqlEntityProcessor.nextRow(SqlEntityProcessor.java:73)
+	at org.apache.solr.handler.dataimport.EntityProcessorWrapper.nextRow(EntityProcessorWrapper.java:267)
+	at org.apache.solr.handler.dataimport.DocBuilder.buildDocument(DocBuilder.java:476)
+	at org.apache.solr.handler.dataimport.DocBuilder.buildDocument(DocBuilder.java:415)
+	at org.apache.solr.handler.dataimport.DocBuilder.doFullDump(DocBuilder.java:330)
+	at org.apache.solr.handler.dataimport.DocBuilder.execute(DocBuilder.java:233)
+	at org.apache.solr.handler.dataimport.DataImporter.doFullImport(DataImporter.java:424)
+	at org.apache.solr.handler.dataimport.DataImporter.runCmd(DataImporter.java:483)
+	at org.apache.solr.handler.dataimport.DataImportHandler.handleRequestBody(DataImportHandler.java:184)
+	at org.apache.solr.handler.RequestHandlerBase.handleRequest(RequestHandlerBase.java:199)
+	at org.apache.solr.core.SolrCore.execute(SolrCore.java:2566)
+	at org.apache.solr.servlet.HttpSolrCall.execute(HttpSolrCall.java:756)
+	at org.apache.solr.servlet.HttpSolrCall.call(HttpSolrCall.java:542)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:397)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:343)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1602)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:540)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:146)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:548)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:257)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:1588)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:255)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1345)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:203)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:480)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:1557)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:201)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1247)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:144)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:220)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:126)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.eclipse.jetty.rewrite.handler.RewriteHandler.handle(RewriteHandler.java:335)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.eclipse.jetty.server.Server.handle(Server.java:502)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:364)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:260)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:305)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:103)
+	at org.eclipse.jetty.io.ChannelEndPoint$2.run(ChannelEndPoint.java:118)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.runTask(EatWhatYouKill.java:333)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.doProduce(EatWhatYouKill.java:310)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.tryProduce(EatWhatYouKill.java:168)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.run(EatWhatYouKill.java:126)
+	at org.eclipse.jetty.util.thread.ReservedThreadExecutor$ReservedThread.run(ReservedThreadExecutor.java:366)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:765)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$2.run(QueuedThreadPool.java:683)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.sql.SQLException: Illegal value for setFetchSize().
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:965)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:898)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:887)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:861)
+	at com.mysql.jdbc.StatementImpl.setFetchSize(StatementImpl.java:2317)
+	at org.apache.solr.handler.dataimport.JdbcDataSource$ResultSetIterator.createStatement(JdbcDataSource.java:343)
+	at org.apache.solr.handler.dataimport.JdbcDataSource$ResultSetIterator.<init>(JdbcDataSource.java:318)
+	... 53 more
+
+2019-05-29 09:48:47.014 INFO  (qtp203849460-20) [   x:mywenda] o.a.s.u.p.LogUpdateProcessorFactory [mywenda]  webapp=/solr path=/dataimport params={core=mywenda&debug=true&indent=on&commit=true&name=dataimport&clean=true&rows=30&wt=json&command=full-import&entity=question&_=1559123237520&verbose=false}{deleteByQuery=*:* (-1634859301689360384)} 0 64
+2019-05-29 09:48:47.016 ERROR (qtp203849460-20) [   x:mywenda] o.a.s.h.d.DataImporter Full Import failed:java.lang.RuntimeException: java.lang.RuntimeException: org.apache.solr.handler.dataimport.DataImportHandlerException: Unable to execute query: select id,title,content from question Processing Document # 1
+	at org.apache.solr.handler.dataimport.DocBuilder.execute(DocBuilder.java:271)
+	at org.apache.solr.handler.dataimport.DataImporter.doFullImport(DataImporter.java:424)
+	at org.apache.solr.handler.dataimport.DataImporter.runCmd(DataImporter.java:483)
+	at org.apache.solr.handler.dataimport.DataImportHandler.handleRequestBody(DataImportHandler.java:184)
+	at org.apache.solr.handler.RequestHandlerBase.handleRequest(RequestHandlerBase.java:199)
+	at org.apache.solr.core.SolrCore.execute(SolrCore.java:2566)
+	at org.apache.solr.servlet.HttpSolrCall.execute(HttpSolrCall.java:756)
+	at org.apache.solr.servlet.HttpSolrCall.call(HttpSolrCall.java:542)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:397)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:343)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1602)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:540)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:146)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:548)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:257)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:1588)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:255)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1345)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:203)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:480)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:1557)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:201)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1247)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:144)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:220)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:126)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.eclipse.jetty.rewrite.handler.RewriteHandler.handle(RewriteHandler.java:335)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.eclipse.jetty.server.Server.handle(Server.java:502)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:364)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:260)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:305)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:103)
+	at org.eclipse.jetty.io.ChannelEndPoint$2.run(ChannelEndPoint.java:118)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.runTask(EatWhatYouKill.java:333)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.doProduce(EatWhatYouKill.java:310)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.tryProduce(EatWhatYouKill.java:168)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.run(EatWhatYouKill.java:126)
+	at org.eclipse.jetty.util.thread.ReservedThreadExecutor$ReservedThread.run(ReservedThreadExecutor.java:366)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:765)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$2.run(QueuedThreadPool.java:683)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.RuntimeException: org.apache.solr.handler.dataimport.DataImportHandlerException: Unable to execute query: select id,title,content from question Processing Document # 1
+	at org.apache.solr.handler.dataimport.DocBuilder.buildDocument(DocBuilder.java:417)
+	at org.apache.solr.handler.dataimport.DocBuilder.doFullDump(DocBuilder.java:330)
+	at org.apache.solr.handler.dataimport.DocBuilder.execute(DocBuilder.java:233)
+	... 43 more
+Caused by: org.apache.solr.handler.dataimport.DataImportHandlerException: Unable to execute query: select id,title,content from question Processing Document # 1
+	at org.apache.solr.handler.dataimport.DataImportHandlerException.wrapAndThrow(DataImportHandlerException.java:69)
+	at org.apache.solr.handler.dataimport.JdbcDataSource$ResultSetIterator.<init>(JdbcDataSource.java:327)
+	at org.apache.solr.handler.dataimport.JdbcDataSource.createResultSetIterator(JdbcDataSource.java:288)
+	at org.apache.solr.handler.dataimport.JdbcDataSource.getData(JdbcDataSource.java:283)
+	at org.apache.solr.handler.dataimport.JdbcDataSource.getData(JdbcDataSource.java:52)
+	at org.apache.solr.handler.dataimport.SqlEntityProcessor.initQuery(SqlEntityProcessor.java:59)
+	at org.apache.solr.handler.dataimport.SqlEntityProcessor.nextRow(SqlEntityProcessor.java:73)
+	at org.apache.solr.handler.dataimport.EntityProcessorWrapper.nextRow(EntityProcessorWrapper.java:267)
+	at org.apache.solr.handler.dataimport.DocBuilder.buildDocument(DocBuilder.java:476)
+	at org.apache.solr.handler.dataimport.DocBuilder.buildDocument(DocBuilder.java:415)
+	... 45 more
+Caused by: java.sql.SQLException: Illegal value for setFetchSize().
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:965)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:898)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:887)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:861)
+	at com.mysql.jdbc.StatementImpl.setFetchSize(StatementImpl.java:2317)
+	at org.apache.solr.handler.dataimport.JdbcDataSource$ResultSetIterator.createStatement(JdbcDataSource.java:343)
+	at org.apache.solr.handler.dataimport.JdbcDataSource$ResultSetIterator.<init>(JdbcDataSource.java:318)
+	... 53 more
+
+2019-05-29 09:48:47.017 INFO  (qtp203849460-20) [   x:mywenda] o.a.s.u.DirectUpdateHandler2 start rollback{}
+2019-05-29 09:48:47.028 INFO  (qtp203849460-20) [   x:mywenda] o.a.s.u.DefaultSolrCoreState New IndexWriter is ready to be used.
+2019-05-29 09:48:47.028 INFO  (qtp203849460-20) [   x:mywenda] o.a.s.u.DirectUpdateHandler2 end_rollback
+2019-05-29 09:48:47.033 INFO  (qtp203849460-23) [   x:mywenda] o.a.s.c.S.Request [mywenda]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1559123237520} status=0 QTime=0
+2019-05-29 09:48:48.701 INFO  (qtp203849460-20) [   x:mywenda] o.a.s.c.S.Request [mywenda]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1559123237520} status=0 QTime=0
+2019-05-29 09:48:50.613 INFO  (qtp203849460-23) [   x:mywenda] o.a.s.h.d.DataImporter Loading DIH Configuration: data-config.xml
+2019-05-29 09:48:50.615 INFO  (qtp203849460-23) [   x:mywenda] o.a.s.h.d.c.DIHConfiguration id is a required field in SolrSchema . But not found in DataConfig
+2019-05-29 09:48:50.615 INFO  (qtp203849460-23) [   x:mywenda] o.a.s.h.d.DataImporter Data Configuration loaded successfully
+2019-05-29 09:48:50.615 INFO  (qtp203849460-23) [   x:mywenda] o.a.s.h.d.DataImporter Starting Full Import
+2019-05-29 09:48:50.616 INFO  (qtp203849460-23) [   x:mywenda] o.a.s.h.d.SimplePropertiesWriter Read dataimport.properties
+2019-05-29 09:48:50.625 INFO  (qtp203849460-23) [   x:mywenda] o.a.s.s.SolrIndexSearcher Opening [Searcher@4e908c25[mywenda] realtime]
+2019-05-29 09:48:50.628 INFO  (qtp203849460-23) [   x:mywenda] o.a.s.s.SolrIndexSearcher Opening [Searcher@1825944a[mywenda] realtime]
+2019-05-29 09:48:50.629 INFO  (qtp203849460-23) [   x:mywenda] o.a.s.h.d.JdbcDataSource Creating a connection for entity question with URL: jdbc:mysql://localhost:3306/wenda
+2019-05-29 09:48:50.635 INFO  (qtp203849460-23) [   x:mywenda] o.a.s.h.d.JdbcDataSource Time taken for getConnection(): 5
+2019-05-29 09:48:50.636 ERROR (qtp203849460-23) [   x:mywenda] o.a.s.h.d.DocBuilder Exception while processing: question document : SolrInputDocument(fields: []):org.apache.solr.handler.dataimport.DataImportHandlerException: Unable to execute query: select id,title,content from question Processing Document # 1
+	at org.apache.solr.handler.dataimport.DataImportHandlerException.wrapAndThrow(DataImportHandlerException.java:69)
+	at org.apache.solr.handler.dataimport.JdbcDataSource$ResultSetIterator.<init>(JdbcDataSource.java:327)
+	at org.apache.solr.handler.dataimport.JdbcDataSource.createResultSetIterator(JdbcDataSource.java:288)
+	at org.apache.solr.handler.dataimport.JdbcDataSource.getData(JdbcDataSource.java:283)
+	at org.apache.solr.handler.dataimport.JdbcDataSource.getData(JdbcDataSource.java:52)
+	at org.apache.solr.handler.dataimport.SqlEntityProcessor.initQuery(SqlEntityProcessor.java:59)
+	at org.apache.solr.handler.dataimport.SqlEntityProcessor.nextRow(SqlEntityProcessor.java:73)
+	at org.apache.solr.handler.dataimport.EntityProcessorWrapper.nextRow(EntityProcessorWrapper.java:267)
+	at org.apache.solr.handler.dataimport.DocBuilder.buildDocument(DocBuilder.java:476)
+	at org.apache.solr.handler.dataimport.DocBuilder.buildDocument(DocBuilder.java:415)
+	at org.apache.solr.handler.dataimport.DocBuilder.doFullDump(DocBuilder.java:330)
+	at org.apache.solr.handler.dataimport.DocBuilder.execute(DocBuilder.java:233)
+	at org.apache.solr.handler.dataimport.DataImporter.doFullImport(DataImporter.java:424)
+	at org.apache.solr.handler.dataimport.DataImporter.runCmd(DataImporter.java:483)
+	at org.apache.solr.handler.dataimport.DataImportHandler.handleRequestBody(DataImportHandler.java:184)
+	at org.apache.solr.handler.RequestHandlerBase.handleRequest(RequestHandlerBase.java:199)
+	at org.apache.solr.core.SolrCore.execute(SolrCore.java:2566)
+	at org.apache.solr.servlet.HttpSolrCall.execute(HttpSolrCall.java:756)
+	at org.apache.solr.servlet.HttpSolrCall.call(HttpSolrCall.java:542)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:397)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:343)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1602)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:540)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:146)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:548)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:257)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:1588)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:255)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1345)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:203)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:480)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:1557)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:201)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1247)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:144)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:220)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:126)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.eclipse.jetty.rewrite.handler.RewriteHandler.handle(RewriteHandler.java:335)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.eclipse.jetty.server.Server.handle(Server.java:502)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:364)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:260)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:305)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:103)
+	at org.eclipse.jetty.io.ChannelEndPoint$2.run(ChannelEndPoint.java:118)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.runTask(EatWhatYouKill.java:333)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.doProduce(EatWhatYouKill.java:310)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.tryProduce(EatWhatYouKill.java:168)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.run(EatWhatYouKill.java:126)
+	at org.eclipse.jetty.util.thread.ReservedThreadExecutor$ReservedThread.run(ReservedThreadExecutor.java:366)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:765)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$2.run(QueuedThreadPool.java:683)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.sql.SQLException: Illegal value for setFetchSize().
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:965)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:898)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:887)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:861)
+	at com.mysql.jdbc.StatementImpl.setFetchSize(StatementImpl.java:2317)
+	at org.apache.solr.handler.dataimport.JdbcDataSource$ResultSetIterator.createStatement(JdbcDataSource.java:343)
+	at org.apache.solr.handler.dataimport.JdbcDataSource$ResultSetIterator.<init>(JdbcDataSource.java:318)
+	... 53 more
+
+2019-05-29 09:48:50.636 INFO  (qtp203849460-23) [   x:mywenda] o.a.s.u.p.LogUpdateProcessorFactory [mywenda]  webapp=/solr path=/dataimport params={core=mywenda&debug=true&indent=on&commit=true&name=dataimport&clean=true&rows=30&wt=json&command=full-import&entity=question&_=1559123237520&verbose=false}{deleteByQuery=*:* (-1634859305524002816)} 0 24
+2019-05-29 09:48:50.637 ERROR (qtp203849460-23) [   x:mywenda] o.a.s.h.d.DataImporter Full Import failed:java.lang.RuntimeException: java.lang.RuntimeException: org.apache.solr.handler.dataimport.DataImportHandlerException: Unable to execute query: select id,title,content from question Processing Document # 1
+	at org.apache.solr.handler.dataimport.DocBuilder.execute(DocBuilder.java:271)
+	at org.apache.solr.handler.dataimport.DataImporter.doFullImport(DataImporter.java:424)
+	at org.apache.solr.handler.dataimport.DataImporter.runCmd(DataImporter.java:483)
+	at org.apache.solr.handler.dataimport.DataImportHandler.handleRequestBody(DataImportHandler.java:184)
+	at org.apache.solr.handler.RequestHandlerBase.handleRequest(RequestHandlerBase.java:199)
+	at org.apache.solr.core.SolrCore.execute(SolrCore.java:2566)
+	at org.apache.solr.servlet.HttpSolrCall.execute(HttpSolrCall.java:756)
+	at org.apache.solr.servlet.HttpSolrCall.call(HttpSolrCall.java:542)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:397)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:343)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1602)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:540)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:146)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:548)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:257)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:1588)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:255)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1345)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:203)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:480)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:1557)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:201)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1247)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:144)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:220)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:126)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.eclipse.jetty.rewrite.handler.RewriteHandler.handle(RewriteHandler.java:335)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.eclipse.jetty.server.Server.handle(Server.java:502)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:364)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:260)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:305)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:103)
+	at org.eclipse.jetty.io.ChannelEndPoint$2.run(ChannelEndPoint.java:118)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.runTask(EatWhatYouKill.java:333)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.doProduce(EatWhatYouKill.java:310)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.tryProduce(EatWhatYouKill.java:168)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.run(EatWhatYouKill.java:126)
+	at org.eclipse.jetty.util.thread.ReservedThreadExecutor$ReservedThread.run(ReservedThreadExecutor.java:366)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:765)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$2.run(QueuedThreadPool.java:683)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.RuntimeException: org.apache.solr.handler.dataimport.DataImportHandlerException: Unable to execute query: select id,title,content from question Processing Document # 1
+	at org.apache.solr.handler.dataimport.DocBuilder.buildDocument(DocBuilder.java:417)
+	at org.apache.solr.handler.dataimport.DocBuilder.doFullDump(DocBuilder.java:330)
+	at org.apache.solr.handler.dataimport.DocBuilder.execute(DocBuilder.java:233)
+	... 43 more
+Caused by: org.apache.solr.handler.dataimport.DataImportHandlerException: Unable to execute query: select id,title,content from question Processing Document # 1
+	at org.apache.solr.handler.dataimport.DataImportHandlerException.wrapAndThrow(DataImportHandlerException.java:69)
+	at org.apache.solr.handler.dataimport.JdbcDataSource$ResultSetIterator.<init>(JdbcDataSource.java:327)
+	at org.apache.solr.handler.dataimport.JdbcDataSource.createResultSetIterator(JdbcDataSource.java:288)
+	at org.apache.solr.handler.dataimport.JdbcDataSource.getData(JdbcDataSource.java:283)
+	at org.apache.solr.handler.dataimport.JdbcDataSource.getData(JdbcDataSource.java:52)
+	at org.apache.solr.handler.dataimport.SqlEntityProcessor.initQuery(SqlEntityProcessor.java:59)
+	at org.apache.solr.handler.dataimport.SqlEntityProcessor.nextRow(SqlEntityProcessor.java:73)
+	at org.apache.solr.handler.dataimport.EntityProcessorWrapper.nextRow(EntityProcessorWrapper.java:267)
+	at org.apache.solr.handler.dataimport.DocBuilder.buildDocument(DocBuilder.java:476)
+	at org.apache.solr.handler.dataimport.DocBuilder.buildDocument(DocBuilder.java:415)
+	... 45 more
+Caused by: java.sql.SQLException: Illegal value for setFetchSize().
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:965)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:898)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:887)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:861)
+	at com.mysql.jdbc.StatementImpl.setFetchSize(StatementImpl.java:2317)
+	at org.apache.solr.handler.dataimport.JdbcDataSource$ResultSetIterator.createStatement(JdbcDataSource.java:343)
+	at org.apache.solr.handler.dataimport.JdbcDataSource$ResultSetIterator.<init>(JdbcDataSource.java:318)
+	... 53 more
+
+2019-05-29 09:48:50.637 INFO  (qtp203849460-23) [   x:mywenda] o.a.s.u.DirectUpdateHandler2 start rollback{}
+2019-05-29 09:48:50.644 INFO  (qtp203849460-23) [   x:mywenda] o.a.s.u.DefaultSolrCoreState New IndexWriter is ready to be used.
+2019-05-29 09:48:50.644 INFO  (qtp203849460-23) [   x:mywenda] o.a.s.u.DirectUpdateHandler2 end_rollback
+2019-05-29 09:48:50.649 INFO  (qtp203849460-20) [   x:mywenda] o.a.s.c.S.Request [mywenda]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1559123237520} status=0 QTime=0
+2019-05-29 09:48:51.663 INFO  (qtp203849460-23) [   x:mywenda] o.a.s.c.S.Request [mywenda]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1559123237520} status=0 QTime=0
+2019-05-29 09:48:52.116 INFO  (qtp203849460-20) [   x:mywenda] o.a.s.h.d.DataImporter Loading DIH Configuration: data-config.xml
+2019-05-29 09:48:52.118 INFO  (qtp203849460-20) [   x:mywenda] o.a.s.h.d.c.DIHConfiguration id is a required field in SolrSchema . But not found in DataConfig
+2019-05-29 09:48:52.119 INFO  (qtp203849460-20) [   x:mywenda] o.a.s.h.d.DataImporter Data Configuration loaded successfully
+2019-05-29 09:48:52.119 INFO  (qtp203849460-20) [   x:mywenda] o.a.s.h.d.DataImporter Starting Full Import
+2019-05-29 09:48:52.119 INFO  (qtp203849460-20) [   x:mywenda] o.a.s.h.d.SimplePropertiesWriter Read dataimport.properties
+2019-05-29 09:48:52.129 INFO  (qtp203849460-20) [   x:mywenda] o.a.s.s.SolrIndexSearcher Opening [Searcher@63035c4c[mywenda] realtime]
+2019-05-29 09:48:52.131 INFO  (qtp203849460-20) [   x:mywenda] o.a.s.s.SolrIndexSearcher Opening [Searcher@366d7343[mywenda] realtime]
+2019-05-29 09:48:52.132 INFO  (qtp203849460-20) [   x:mywenda] o.a.s.h.d.JdbcDataSource Creating a connection for entity question with URL: jdbc:mysql://localhost:3306/wenda
+2019-05-29 09:48:52.138 INFO  (qtp203849460-20) [   x:mywenda] o.a.s.h.d.JdbcDataSource Time taken for getConnection(): 5
+2019-05-29 09:48:52.139 ERROR (qtp203849460-20) [   x:mywenda] o.a.s.h.d.DocBuilder Exception while processing: question document : SolrInputDocument(fields: []):org.apache.solr.handler.dataimport.DataImportHandlerException: Unable to execute query: select id,title,content from question Processing Document # 1
+	at org.apache.solr.handler.dataimport.DataImportHandlerException.wrapAndThrow(DataImportHandlerException.java:69)
+	at org.apache.solr.handler.dataimport.JdbcDataSource$ResultSetIterator.<init>(JdbcDataSource.java:327)
+	at org.apache.solr.handler.dataimport.JdbcDataSource.createResultSetIterator(JdbcDataSource.java:288)
+	at org.apache.solr.handler.dataimport.JdbcDataSource.getData(JdbcDataSource.java:283)
+	at org.apache.solr.handler.dataimport.JdbcDataSource.getData(JdbcDataSource.java:52)
+	at org.apache.solr.handler.dataimport.SqlEntityProcessor.initQuery(SqlEntityProcessor.java:59)
+	at org.apache.solr.handler.dataimport.SqlEntityProcessor.nextRow(SqlEntityProcessor.java:73)
+	at org.apache.solr.handler.dataimport.EntityProcessorWrapper.nextRow(EntityProcessorWrapper.java:267)
+	at org.apache.solr.handler.dataimport.DocBuilder.buildDocument(DocBuilder.java:476)
+	at org.apache.solr.handler.dataimport.DocBuilder.buildDocument(DocBuilder.java:415)
+	at org.apache.solr.handler.dataimport.DocBuilder.doFullDump(DocBuilder.java:330)
+	at org.apache.solr.handler.dataimport.DocBuilder.execute(DocBuilder.java:233)
+	at org.apache.solr.handler.dataimport.DataImporter.doFullImport(DataImporter.java:424)
+	at org.apache.solr.handler.dataimport.DataImporter.runCmd(DataImporter.java:483)
+	at org.apache.solr.handler.dataimport.DataImportHandler.handleRequestBody(DataImportHandler.java:184)
+	at org.apache.solr.handler.RequestHandlerBase.handleRequest(RequestHandlerBase.java:199)
+	at org.apache.solr.core.SolrCore.execute(SolrCore.java:2566)
+	at org.apache.solr.servlet.HttpSolrCall.execute(HttpSolrCall.java:756)
+	at org.apache.solr.servlet.HttpSolrCall.call(HttpSolrCall.java:542)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:397)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:343)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1602)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:540)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:146)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:548)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:257)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:1588)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:255)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1345)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:203)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:480)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:1557)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:201)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1247)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:144)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:220)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:126)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.eclipse.jetty.rewrite.handler.RewriteHandler.handle(RewriteHandler.java:335)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.eclipse.jetty.server.Server.handle(Server.java:502)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:364)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:260)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:305)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:103)
+	at org.eclipse.jetty.io.ChannelEndPoint$2.run(ChannelEndPoint.java:118)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.runTask(EatWhatYouKill.java:333)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.doProduce(EatWhatYouKill.java:310)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.tryProduce(EatWhatYouKill.java:168)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.run(EatWhatYouKill.java:126)
+	at org.eclipse.jetty.util.thread.ReservedThreadExecutor$ReservedThread.run(ReservedThreadExecutor.java:366)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:765)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$2.run(QueuedThreadPool.java:683)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.sql.SQLException: Illegal value for setFetchSize().
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:965)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:898)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:887)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:861)
+	at com.mysql.jdbc.StatementImpl.setFetchSize(StatementImpl.java:2317)
+	at org.apache.solr.handler.dataimport.JdbcDataSource$ResultSetIterator.createStatement(JdbcDataSource.java:343)
+	at org.apache.solr.handler.dataimport.JdbcDataSource$ResultSetIterator.<init>(JdbcDataSource.java:318)
+	... 53 more
+
+2019-05-29 09:48:52.139 INFO  (qtp203849460-20) [   x:mywenda] o.a.s.u.p.LogUpdateProcessorFactory [mywenda]  webapp=/solr path=/dataimport params={core=mywenda&debug=true&indent=on&commit=true&name=dataimport&clean=true&rows=30&wt=json&command=full-import&entity=question&_=1559123237520&verbose=false}{deleteByQuery=*:* (-1634859307101061120)} 0 23
+2019-05-29 09:48:52.140 ERROR (qtp203849460-20) [   x:mywenda] o.a.s.h.d.DataImporter Full Import failed:java.lang.RuntimeException: java.lang.RuntimeException: org.apache.solr.handler.dataimport.DataImportHandlerException: Unable to execute query: select id,title,content from question Processing Document # 1
+	at org.apache.solr.handler.dataimport.DocBuilder.execute(DocBuilder.java:271)
+	at org.apache.solr.handler.dataimport.DataImporter.doFullImport(DataImporter.java:424)
+	at org.apache.solr.handler.dataimport.DataImporter.runCmd(DataImporter.java:483)
+	at org.apache.solr.handler.dataimport.DataImportHandler.handleRequestBody(DataImportHandler.java:184)
+	at org.apache.solr.handler.RequestHandlerBase.handleRequest(RequestHandlerBase.java:199)
+	at org.apache.solr.core.SolrCore.execute(SolrCore.java:2566)
+	at org.apache.solr.servlet.HttpSolrCall.execute(HttpSolrCall.java:756)
+	at org.apache.solr.servlet.HttpSolrCall.call(HttpSolrCall.java:542)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:397)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:343)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1602)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:540)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:146)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:548)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:257)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:1588)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:255)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1345)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:203)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:480)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:1557)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:201)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1247)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:144)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:220)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:126)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.eclipse.jetty.rewrite.handler.RewriteHandler.handle(RewriteHandler.java:335)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.eclipse.jetty.server.Server.handle(Server.java:502)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:364)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:260)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:305)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:103)
+	at org.eclipse.jetty.io.ChannelEndPoint$2.run(ChannelEndPoint.java:118)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.runTask(EatWhatYouKill.java:333)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.doProduce(EatWhatYouKill.java:310)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.tryProduce(EatWhatYouKill.java:168)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.run(EatWhatYouKill.java:126)
+	at org.eclipse.jetty.util.thread.ReservedThreadExecutor$ReservedThread.run(ReservedThreadExecutor.java:366)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:765)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$2.run(QueuedThreadPool.java:683)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.RuntimeException: org.apache.solr.handler.dataimport.DataImportHandlerException: Unable to execute query: select id,title,content from question Processing Document # 1
+	at org.apache.solr.handler.dataimport.DocBuilder.buildDocument(DocBuilder.java:417)
+	at org.apache.solr.handler.dataimport.DocBuilder.doFullDump(DocBuilder.java:330)
+	at org.apache.solr.handler.dataimport.DocBuilder.execute(DocBuilder.java:233)
+	... 43 more
+Caused by: org.apache.solr.handler.dataimport.DataImportHandlerException: Unable to execute query: select id,title,content from question Processing Document # 1
+	at org.apache.solr.handler.dataimport.DataImportHandlerException.wrapAndThrow(DataImportHandlerException.java:69)
+	at org.apache.solr.handler.dataimport.JdbcDataSource$ResultSetIterator.<init>(JdbcDataSource.java:327)
+	at org.apache.solr.handler.dataimport.JdbcDataSource.createResultSetIterator(JdbcDataSource.java:288)
+	at org.apache.solr.handler.dataimport.JdbcDataSource.getData(JdbcDataSource.java:283)
+	at org.apache.solr.handler.dataimport.JdbcDataSource.getData(JdbcDataSource.java:52)
+	at org.apache.solr.handler.dataimport.SqlEntityProcessor.initQuery(SqlEntityProcessor.java:59)
+	at org.apache.solr.handler.dataimport.SqlEntityProcessor.nextRow(SqlEntityProcessor.java:73)
+	at org.apache.solr.handler.dataimport.EntityProcessorWrapper.nextRow(EntityProcessorWrapper.java:267)
+	at org.apache.solr.handler.dataimport.DocBuilder.buildDocument(DocBuilder.java:476)
+	at org.apache.solr.handler.dataimport.DocBuilder.buildDocument(DocBuilder.java:415)
+	... 45 more
+Caused by: java.sql.SQLException: Illegal value for setFetchSize().
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:965)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:898)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:887)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:861)
+	at com.mysql.jdbc.StatementImpl.setFetchSize(StatementImpl.java:2317)
+	at org.apache.solr.handler.dataimport.JdbcDataSource$ResultSetIterator.createStatement(JdbcDataSource.java:343)
+	at org.apache.solr.handler.dataimport.JdbcDataSource$ResultSetIterator.<init>(JdbcDataSource.java:318)
+	... 53 more
+
+2019-05-29 09:48:52.140 INFO  (qtp203849460-20) [   x:mywenda] o.a.s.u.DirectUpdateHandler2 start rollback{}
+2019-05-29 09:48:52.147 INFO  (qtp203849460-20) [   x:mywenda] o.a.s.u.DefaultSolrCoreState New IndexWriter is ready to be used.
+2019-05-29 09:48:52.147 INFO  (qtp203849460-20) [   x:mywenda] o.a.s.u.DirectUpdateHandler2 end_rollback
+2019-05-29 09:48:52.155 INFO  (qtp203849460-23) [   x:mywenda] o.a.s.c.S.Request [mywenda]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1559123237520} status=0 QTime=0
+2019-05-29 09:48:53.281 INFO  (qtp203849460-20) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1559123237406} status=0 QTime=0
+2019-05-29 09:48:53.295 INFO  (qtp203849460-20) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/logging params={wt=json&_=1559123333276&since=0} status=0 QTime=1
+2019-05-29 09:48:53.356 INFO  (qtp203849460-24) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1559123237407} status=0 QTime=74
+2019-05-29 09:49:03.294 INFO  (qtp203849460-24) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/logging params={wt=json&_=1559123333276&since=0} status=0 QTime=1
+2019-05-29 09:49:13.384 INFO  (qtp203849460-23) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/logging params={wt=json&_=1559123333276&since=0} status=0 QTime=1
+2019-05-29 09:49:24.383 INFO  (qtp203849460-24) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/logging params={wt=json&_=1559123333276&since=0} status=0 QTime=0
+2019-05-29 09:49:35.382 INFO  (qtp203849460-21) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/logging params={wt=json&_=1559123333276&since=0} status=0 QTime=0
+2019-05-29 09:55:54.340 INFO  (qtp203849460-23) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1559123754152} status=0 QTime=0
+2019-05-29 09:55:54.393 INFO  (qtp203849460-21) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1559123754153} status=0 QTime=52
+2019-05-29 09:55:54.435 INFO  (qtp203849460-17) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1559123754153} status=0 QTime=37
+2019-05-29 09:55:57.872 INFO  (qtp203849460-24) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1559123754152} status=0 QTime=0
+2019-05-29 09:55:57.930 INFO  (qtp203849460-24) [   x:mywenda] o.a.s.c.S.Request [mywenda]  webapp=/solr path=/replication params={wt=json&command=details&_=1559123757861} status=0 QTime=13
+2019-05-29 09:55:57.947 INFO  (qtp203849460-24) [   x:mywenda] o.a.s.c.S.Request [mywenda]  webapp=/solr path=/admin/ping params={action=status&wt=json&_=1559123754153&ts=1559123754153} status=503 QTime=14
+2019-05-29 09:55:58.000 INFO  (qtp203849460-17) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1559123754153} status=0 QTime=120
+2019-05-29 09:55:58.014 INFO  (qtp203849460-20) [   x:mywenda] o.a.s.c.S.Request [mywenda]  webapp=/solr path=/admin/luke params={numTerms=0&show=index&wt=json&_=1559123757860} status=0 QTime=103
+2019-05-29 09:55:58.033 INFO  (qtp203849460-21) [   x:mywenda] o.a.s.c.S.Request [mywenda]  webapp=/solr path=/admin/system params={wt=json&_=1559123757861} status=0 QTime=59
+2019-05-29 09:56:06.360 INFO  (qtp203849460-15) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1559123754152} status=0 QTime=0
+2019-05-29 09:56:06.364 INFO  (qtp203849460-15) [   x:mywenda] o.a.s.c.S.Request [mywenda]  webapp=/solr path=/admin/mbeans params={cat=QUERY&wt=json&_=1559123766344} status=0 QTime=0
+2019-05-29 09:56:06.404 INFO  (qtp203849460-24) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1559123754153} status=0 QTime=43
+2019-05-29 09:56:06.420 INFO  (qtp203849460-20) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1559123754152} status=0 QTime=0
+2019-05-29 09:56:06.440 INFO  (qtp203849460-15) [   x:mywenda] o.a.s.c.S.Request [mywenda]  webapp=/solr path=/admin/mbeans params={cat=QUERY&wt=json&_=1559123766344} status=0 QTime=0
+2019-05-29 09:56:06.447 INFO  (qtp203849460-15) [   x:mywenda] o.a.s.c.S.Request [mywenda]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=show-config&_=1559123766344} status=0 QTime=1
+2019-05-29 09:56:06.471 INFO  (qtp203849460-20) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1559123754153} status=0 QTime=38
+2019-05-29 09:56:06.479 INFO  (qtp203849460-24) [   x:mywenda] o.a.s.c.S.Request [mywenda]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1559123766344} status=0 QTime=0
+2019-05-29 09:56:22.717 INFO  (qtp203849460-24) [   x:mywenda] o.a.s.h.d.DataImporter Loading DIH Configuration: data-config.xml
+2019-05-29 09:56:22.720 INFO  (qtp203849460-24) [   x:mywenda] o.a.s.h.d.c.DIHConfiguration id is a required field in SolrSchema . But not found in DataConfig
+2019-05-29 09:56:22.720 INFO  (qtp203849460-24) [   x:mywenda] o.a.s.h.d.DataImporter Data Configuration loaded successfully
+2019-05-29 09:56:22.720 INFO  (qtp203849460-24) [   x:mywenda] o.a.s.c.S.Request [mywenda]  webapp=/solr path=/dataimport params={core=mywenda&indent=on&commit=true&name=dataimport&clean=true&rows=30&wt=json&command=full-import&entity=question&_=1559123766344&verbose=false} status=0 QTime=4
+2019-05-29 09:56:22.720 INFO  (Thread-15) [   ] o.a.s.h.d.DataImporter Starting Full Import
+2019-05-29 09:56:22.721 INFO  (Thread-15) [   ] o.a.s.h.d.SimplePropertiesWriter Read dataimport.properties
+2019-05-29 09:56:22.726 INFO  (qtp203849460-20) [   x:mywenda] o.a.s.c.S.Request [mywenda]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1559123766344} status=0 QTime=0
+2019-05-29 09:56:22.742 INFO  (Thread-15) [   ] o.a.s.s.SolrIndexSearcher Opening [Searcher@96eaa16[mywenda] realtime]
+2019-05-29 09:56:22.746 INFO  (Thread-15) [   ] o.a.s.s.SolrIndexSearcher Opening [Searcher@d20d7d9[mywenda] realtime]
+2019-05-29 09:56:22.748 INFO  (Thread-15) [   ] o.a.s.h.d.JdbcDataSource Creating a connection for entity question with URL: jdbc:mysql://localhost:3306/wenda
+2019-05-29 09:56:22.756 INFO  (Thread-15) [   ] o.a.s.h.d.JdbcDataSource Time taken for getConnection(): 8
+2019-05-29 09:56:22.756 ERROR (Thread-15) [   ] o.a.s.h.d.DocBuilder Exception while processing: question document : SolrInputDocument(fields: []):org.apache.solr.handler.dataimport.DataImportHandlerException: Unable to execute query: select id,title,content from question Processing Document # 1
+	at org.apache.solr.handler.dataimport.DataImportHandlerException.wrapAndThrow(DataImportHandlerException.java:69)
+	at org.apache.solr.handler.dataimport.JdbcDataSource$ResultSetIterator.<init>(JdbcDataSource.java:327)
+	at org.apache.solr.handler.dataimport.JdbcDataSource.createResultSetIterator(JdbcDataSource.java:288)
+	at org.apache.solr.handler.dataimport.JdbcDataSource.getData(JdbcDataSource.java:283)
+	at org.apache.solr.handler.dataimport.JdbcDataSource.getData(JdbcDataSource.java:52)
+	at org.apache.solr.handler.dataimport.SqlEntityProcessor.initQuery(SqlEntityProcessor.java:59)
+	at org.apache.solr.handler.dataimport.SqlEntityProcessor.nextRow(SqlEntityProcessor.java:73)
+	at org.apache.solr.handler.dataimport.EntityProcessorWrapper.nextRow(EntityProcessorWrapper.java:267)
+	at org.apache.solr.handler.dataimport.DocBuilder.buildDocument(DocBuilder.java:476)
+	at org.apache.solr.handler.dataimport.DocBuilder.buildDocument(DocBuilder.java:415)
+	at org.apache.solr.handler.dataimport.DocBuilder.doFullDump(DocBuilder.java:330)
+	at org.apache.solr.handler.dataimport.DocBuilder.execute(DocBuilder.java:233)
+	at org.apache.solr.handler.dataimport.DataImporter.doFullImport(DataImporter.java:424)
+	at org.apache.solr.handler.dataimport.DataImporter.runCmd(DataImporter.java:483)
+	at org.apache.solr.handler.dataimport.DataImporter.lambda$runAsync$0(DataImporter.java:466)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.sql.SQLException: Illegal value for setFetchSize().
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:965)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:898)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:887)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:861)
+	at com.mysql.jdbc.StatementImpl.setFetchSize(StatementImpl.java:2317)
+	at org.apache.solr.handler.dataimport.JdbcDataSource$ResultSetIterator.createStatement(JdbcDataSource.java:343)
+	at org.apache.solr.handler.dataimport.JdbcDataSource$ResultSetIterator.<init>(JdbcDataSource.java:318)
+	... 14 more
+
+2019-05-29 09:56:22.756 INFO  (Thread-15) [   ] o.a.s.u.p.LogUpdateProcessorFactory [mywenda]  webapp=/solr path=/dataimport params={core=mywenda&indent=on&commit=true&name=dataimport&clean=true&rows=30&wt=json&command=full-import&entity=question&_=1559123766344&verbose=false} status=0 QTime=4{deleteByQuery=*:* (-1634859779591503872)} 0 40
+2019-05-29 09:56:22.758 ERROR (Thread-15) [   ] o.a.s.h.d.DataImporter Full Import failed:java.lang.RuntimeException: java.lang.RuntimeException: org.apache.solr.handler.dataimport.DataImportHandlerException: Unable to execute query: select id,title,content from question Processing Document # 1
+	at org.apache.solr.handler.dataimport.DocBuilder.execute(DocBuilder.java:271)
+	at org.apache.solr.handler.dataimport.DataImporter.doFullImport(DataImporter.java:424)
+	at org.apache.solr.handler.dataimport.DataImporter.runCmd(DataImporter.java:483)
+	at org.apache.solr.handler.dataimport.DataImporter.lambda$runAsync$0(DataImporter.java:466)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.RuntimeException: org.apache.solr.handler.dataimport.DataImportHandlerException: Unable to execute query: select id,title,content from question Processing Document # 1
+	at org.apache.solr.handler.dataimport.DocBuilder.buildDocument(DocBuilder.java:417)
+	at org.apache.solr.handler.dataimport.DocBuilder.doFullDump(DocBuilder.java:330)
+	at org.apache.solr.handler.dataimport.DocBuilder.execute(DocBuilder.java:233)
+	... 4 more
+Caused by: org.apache.solr.handler.dataimport.DataImportHandlerException: Unable to execute query: select id,title,content from question Processing Document # 1
+	at org.apache.solr.handler.dataimport.DataImportHandlerException.wrapAndThrow(DataImportHandlerException.java:69)
+	at org.apache.solr.handler.dataimport.JdbcDataSource$ResultSetIterator.<init>(JdbcDataSource.java:327)
+	at org.apache.solr.handler.dataimport.JdbcDataSource.createResultSetIterator(JdbcDataSource.java:288)
+	at org.apache.solr.handler.dataimport.JdbcDataSource.getData(JdbcDataSource.java:283)
+	at org.apache.solr.handler.dataimport.JdbcDataSource.getData(JdbcDataSource.java:52)
+	at org.apache.solr.handler.dataimport.SqlEntityProcessor.initQuery(SqlEntityProcessor.java:59)
+	at org.apache.solr.handler.dataimport.SqlEntityProcessor.nextRow(SqlEntityProcessor.java:73)
+	at org.apache.solr.handler.dataimport.EntityProcessorWrapper.nextRow(EntityProcessorWrapper.java:267)
+	at org.apache.solr.handler.dataimport.DocBuilder.buildDocument(DocBuilder.java:476)
+	at org.apache.solr.handler.dataimport.DocBuilder.buildDocument(DocBuilder.java:415)
+	... 6 more
+Caused by: java.sql.SQLException: Illegal value for setFetchSize().
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:965)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:898)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:887)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:861)
+	at com.mysql.jdbc.StatementImpl.setFetchSize(StatementImpl.java:2317)
+	at org.apache.solr.handler.dataimport.JdbcDataSource$ResultSetIterator.createStatement(JdbcDataSource.java:343)
+	at org.apache.solr.handler.dataimport.JdbcDataSource$ResultSetIterator.<init>(JdbcDataSource.java:318)
+	... 14 more
+
+2019-05-29 09:56:22.758 INFO  (Thread-15) [   ] o.a.s.u.DirectUpdateHandler2 start rollback{}
+2019-05-29 09:56:22.767 INFO  (Thread-15) [   ] o.a.s.u.DefaultSolrCoreState New IndexWriter is ready to be used.
+2019-05-29 09:56:22.767 INFO  (Thread-15) [   ] o.a.s.u.DirectUpdateHandler2 end_rollback
+2019-05-29 09:56:27.699 INFO  (qtp203849460-17) [   x:mywenda] o.a.s.c.S.Request [mywenda]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1559123766344} status=0 QTime=0
+2019-05-29 09:56:28.867 INFO  (qtp203849460-24) [   x:mywenda] o.a.s.c.S.Request [mywenda]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1559123766344} status=0 QTime=0
+2019-05-29 09:56:29.402 INFO  (qtp203849460-17) [   x:mywenda] o.a.s.c.S.Request [mywenda]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1559123766344} status=0 QTime=0
+2019-05-29 09:56:29.995 INFO  (qtp203849460-24) [   x:mywenda] o.a.s.c.S.Request [mywenda]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1559123766344} status=0 QTime=0
+2019-05-29 09:56:31.490 INFO  (qtp203849460-17) [   x:mywenda] o.a.s.c.S.Request [mywenda]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1559123766344} status=0 QTime=0
+2019-05-29 09:56:33.035 INFO  (qtp203849460-24) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1559123754152} status=0 QTime=0
+2019-05-29 09:56:33.039 INFO  (qtp203849460-17) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/logging params={wt=json&_=1559123793030&since=0} status=0 QTime=0
+2019-05-29 09:56:33.070 INFO  (qtp203849460-20) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1559123754153} status=0 QTime=32
+2019-05-29 09:56:43.045 INFO  (qtp203849460-20) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/logging params={wt=json&_=1559123793030&since=0} status=0 QTime=0
+2019-05-29 09:56:53.045 INFO  (qtp203849460-15) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/logging params={wt=json&_=1559123793030&since=0} status=0 QTime=0
+2019-05-29 09:57:03.052 INFO  (qtp203849460-20) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/logging params={wt=json&_=1559123793030&since=0} status=0 QTime=1
+2019-05-29 09:57:13.053 INFO  (qtp203849460-17) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/logging params={wt=json&_=1559123793030&since=0} status=0 QTime=0
+2019-05-29 09:57:23.057 INFO  (qtp203849460-20) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/logging params={wt=json&_=1559123793030&since=0} status=0 QTime=1
+2019-05-29 09:57:33.055 INFO  (qtp203849460-17) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/logging params={wt=json&_=1559123793030&since=0} status=0 QTime=0
+2019-05-29 09:57:43.057 INFO  (qtp203849460-20) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/logging params={wt=json&_=1559123793030&since=0} status=0 QTime=2
+2019-05-29 09:57:53.058 INFO  (qtp203849460-17) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/logging params={wt=json&_=1559123793030&since=0} status=0 QTime=0
+2019-05-29 09:58:03.056 INFO  (qtp203849460-20) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/logging params={wt=json&_=1559123793030&since=0} status=0 QTime=0
+2019-05-29 09:58:13.379 INFO  (qtp203849460-17) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/logging params={wt=json&_=1559123793030&since=0} status=0 QTime=0
+2019-05-29 09:58:24.385 INFO  (qtp203849460-16) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/logging params={wt=json&_=1559123793030&since=0} status=0 QTime=1
+2019-05-29 09:58:34.387 INFO  (qtp203849460-17) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/logging params={wt=json&_=1559123793030&since=0} status=0 QTime=0
+2019-05-29 09:58:44.392 INFO  (qtp203849460-16) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/logging params={wt=json&_=1559123793030&since=0} status=0 QTime=1
+2019-05-29 09:58:54.388 INFO  (qtp203849460-17) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/logging params={wt=json&_=1559123793030&since=0} status=0 QTime=0
+2019-05-29 09:59:04.391 INFO  (qtp203849460-16) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/logging params={wt=json&_=1559123793030&since=0} status=0 QTime=0
+2019-05-29 09:59:14.394 INFO  (qtp203849460-17) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/logging params={wt=json&_=1559123793030&since=0} status=0 QTime=0
+2019-05-29 09:59:24.390 INFO  (qtp203849460-16) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/logging params={wt=json&_=1559123793030&since=0} status=0 QTime=0
+2019-05-29 09:59:35.378 INFO  (qtp203849460-17) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/logging params={wt=json&_=1559123793030&since=0} status=0 QTime=0
+2019-05-29 09:59:46.374 INFO  (qtp203849460-16) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/logging params={wt=json&_=1559123793030&since=0} status=0 QTime=0
+2019-05-29 09:59:56.381 INFO  (qtp203849460-17) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/logging params={wt=json&_=1559123793030&since=0} status=0 QTime=0
+2019-05-29 10:00:07.375 INFO  (qtp203849460-16) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/logging params={wt=json&_=1559123793030&since=0} status=0 QTime=0
+2019-05-29 10:00:17.392 INFO  (qtp203849460-22) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/logging params={wt=json&_=1559123793030&since=0} status=0 QTime=0
+2019-05-29 10:00:28.384 INFO  (qtp203849460-16) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/logging params={wt=json&_=1559123793030&since=0} status=0 QTime=1
+2019-05-29 10:00:38.376 INFO  (qtp203849460-22) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/logging params={wt=json&_=1559123793030&since=0} status=0 QTime=0
+2019-05-29 10:00:49.381 INFO  (qtp203849460-16) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/logging params={wt=json&_=1559123793030&since=0} status=0 QTime=0
+2019-05-29 10:01:00.374 INFO  (qtp203849460-22) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/logging params={wt=json&_=1559123793030&since=0} status=0 QTime=0
+2019-05-29 10:01:10.375 INFO  (qtp203849460-16) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/logging params={wt=json&_=1559123793030&since=0} status=0 QTime=0
+2019-05-29 10:01:20.386 INFO  (qtp203849460-23) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/logging params={wt=json&_=1559123793030&since=0} status=0 QTime=0
+2019-05-29 10:01:31.390 INFO  (qtp203849460-15) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/logging params={wt=json&_=1559123793030&since=0} status=0 QTime=0
+2019-05-29 10:01:42.377 INFO  (qtp203849460-23) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/logging params={wt=json&_=1559123793030&since=0} status=0 QTime=0
+2019-05-29 10:01:52.377 INFO  (qtp203849460-15) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/logging params={wt=json&_=1559123793030&since=0} status=0 QTime=0
+2019-05-29 10:02:02.392 INFO  (qtp203849460-23) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/logging params={wt=json&_=1559123793030&since=0} status=0 QTime=0
+2019-05-29 10:02:13.390 INFO  (qtp203849460-15) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/logging params={wt=json&_=1559123793030&since=0} status=0 QTime=0
+2019-05-29 10:02:24.387 INFO  (qtp203849460-20) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/logging params={wt=json&_=1559123793030&since=0} status=0 QTime=0
+2019-05-29 10:02:35.388 INFO  (qtp203849460-15) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/logging params={wt=json&_=1559123793030&since=0} status=0 QTime=1
+2019-05-29 10:02:46.380 INFO  (qtp203849460-20) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/logging params={wt=json&_=1559123793030&since=0} status=0 QTime=0
+2019-05-29 10:02:57.376 INFO  (qtp203849460-15) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/logging params={wt=json&_=1559123793030&since=0} status=0 QTime=0
+2019-05-29 10:03:07.378 INFO  (qtp203849460-20) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/logging params={wt=json&_=1559123793030&since=0} status=0 QTime=0
+2019-05-29 10:03:17.391 INFO  (qtp203849460-19) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/logging params={wt=json&_=1559123793030&since=0} status=0 QTime=0
+2019-05-29 10:03:27.396 INFO  (qtp203849460-20) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/logging params={wt=json&_=1559123793030&since=0} status=0 QTime=0
+2019-05-29 10:03:37.389 INFO  (qtp203849460-19) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/logging params={wt=json&_=1559123793030&since=0} status=0 QTime=0
+2019-05-29 10:03:47.399 INFO  (qtp203849460-20) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/logging params={wt=json&_=1559123793030&since=0} status=0 QTime=0
+2019-05-29 10:03:57.394 INFO  (qtp203849460-19) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/logging params={wt=json&_=1559123793030&since=0} status=0 QTime=0
+2019-05-29 10:04:07.407 INFO  (qtp203849460-20) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/logging params={wt=json&_=1559123793030&since=0} status=0 QTime=0
+2019-05-29 10:04:17.402 INFO  (qtp203849460-24) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/logging params={wt=json&_=1559123793030&since=0} status=0 QTime=0
+2019-05-29 10:04:25.509 INFO  (qtp203849460-16) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1559123754152} status=0 QTime=0
+2019-05-29 10:04:25.517 INFO  (qtp203849460-24) [   x:mywenda] o.a.s.c.S.Request [mywenda]  webapp=/solr path=/replication params={wt=json&command=details&_=1559123757861} status=0 QTime=2
+2019-05-29 10:04:25.531 INFO  (qtp203849460-16) [   x:mywenda] o.a.s.c.S.Request [mywenda]  webapp=/solr path=/admin/ping params={action=status&wt=json&_=1559123754153&ts=1559123754153} status=503 QTime=0
+2019-05-29 10:04:25.554 INFO  (qtp203849460-24) [   x:mywenda] o.a.s.c.S.Request [mywenda]  webapp=/solr path=/admin/luke params={numTerms=0&show=index&wt=json&_=1559123757860} status=0 QTime=34
+2019-05-29 10:04:25.600 INFO  (qtp203849460-20) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1559123754153} status=0 QTime=87
+2019-05-29 10:04:25.618 INFO  (qtp203849460-17) [   x:mywenda] o.a.s.c.S.Request [mywenda]  webapp=/solr path=/admin/system params={wt=json&_=1559123757861} status=0 QTime=95
+2019-05-29 10:04:30.002 INFO  (qtp203849460-15) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1559123754152} status=0 QTime=0
+2019-05-29 10:04:30.008 INFO  (qtp203849460-15) [   x:mywenda] o.a.s.c.S.Request [mywenda]  webapp=/solr path=/admin/mbeans params={cat=QUERY&wt=json&_=1559123766344} status=0 QTime=0
+2019-05-29 10:04:30.047 INFO  (qtp203849460-16) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1559123754153} status=0 QTime=39
+2019-05-29 10:04:30.059 INFO  (qtp203849460-24) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1559123754152} status=0 QTime=0
+2019-05-29 10:04:30.075 INFO  (qtp203849460-15) [   x:mywenda] o.a.s.c.S.Request [mywenda]  webapp=/solr path=/admin/mbeans params={cat=QUERY&wt=json&_=1559123766344} status=0 QTime=0
+2019-05-29 10:04:30.081 INFO  (qtp203849460-15) [   x:mywenda] o.a.s.c.S.Request [mywenda]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=show-config&_=1559123766344} status=0 QTime=0
+2019-05-29 10:04:30.101 INFO  (qtp203849460-24) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1559123754153} status=0 QTime=37
+2019-05-29 10:04:30.135 INFO  (qtp203849460-16) [   x:mywenda] o.a.s.c.S.Request [mywenda]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1559123766344} status=0 QTime=0
+2019-05-29 10:04:35.658 INFO  (qtp203849460-16) [   x:mywenda] o.a.s.h.d.DataImporter Loading DIH Configuration: data-config.xml
+2019-05-29 10:04:35.660 INFO  (qtp203849460-16) [   x:mywenda] o.a.s.h.d.c.DIHConfiguration id is a required field in SolrSchema . But not found in DataConfig
+2019-05-29 10:04:35.660 INFO  (qtp203849460-16) [   x:mywenda] o.a.s.h.d.DataImporter Data Configuration loaded successfully
+2019-05-29 10:04:35.661 INFO  (qtp203849460-16) [   x:mywenda] o.a.s.c.S.Request [mywenda]  webapp=/solr path=/dataimport params={core=mywenda&indent=on&commit=true&name=dataimport&clean=true&wt=json&command=full-import&entity=question&_=1559123766344&verbose=false} status=0 QTime=4
+2019-05-29 10:04:35.666 INFO  (Thread-16) [   ] o.a.s.h.d.DataImporter Starting Full Import
+2019-05-29 10:04:35.667 INFO  (qtp203849460-24) [   x:mywenda] o.a.s.c.S.Request [mywenda]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1559123766344} status=0 QTime=0
+2019-05-29 10:04:35.669 INFO  (Thread-16) [   ] o.a.s.h.d.SimplePropertiesWriter Read dataimport.properties
+2019-05-29 10:04:35.681 INFO  (Thread-16) [   ] o.a.s.s.SolrIndexSearcher Opening [Searcher@4df1d23[mywenda] realtime]
+2019-05-29 10:04:35.683 INFO  (Thread-16) [   ] o.a.s.s.SolrIndexSearcher Opening [Searcher@916545[mywenda] realtime]
+2019-05-29 10:04:35.686 INFO  (Thread-16) [   ] o.a.s.h.d.JdbcDataSource Creating a connection for entity question with URL: jdbc:mysql://localhost:3306/wenda
+2019-05-29 10:04:35.696 INFO  (Thread-16) [   ] o.a.s.h.d.JdbcDataSource Time taken for getConnection(): 10
+2019-05-29 10:04:35.992 INFO  (Thread-16) [   ] o.a.s.h.d.DocBuilder Import completed successfully
+2019-05-29 10:04:35.994 INFO  (Thread-16) [   ] o.a.s.u.DirectUpdateHandler2 start commit{_version_=1634860296823635968,optimize=false,openSearcher=true,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+2019-05-29 10:04:35.994 INFO  (Thread-16) [   ] o.a.s.u.SolrIndexWriter Calling setCommitData with IW:org.apache.solr.update.SolrIndexWriter@35bc638d commitCommandVersion:1634860296823635968
+2019-05-29 10:04:36.427 INFO  (Thread-16) [   ] o.a.s.s.SolrIndexSearcher Opening [Searcher@63d056d2[mywenda] main]
+2019-05-29 10:04:36.429 INFO  (searcherExecutor-10-thread-1) [   ] o.a.s.c.QuerySenderListener QuerySenderListener sending requests to Searcher@63d056d2[mywenda] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_9(8.1.0):C23:[diagnostics={os=Windows 10, java.vendor=Oracle Corporation, java.version=1.8.0_131, java.vm.version=25.131-b11, lucene.version=8.1.0, os.arch=amd64, java.runtime.version=1.8.0_131-b11, source=flush, os.version=10.0, timestamp=1559124276084}]:[attributes={Lucene50StoredFieldsFormat.mode=BEST_SPEED}])))}
+2019-05-29 10:04:36.429 INFO  (searcherExecutor-10-thread-1) [   ] o.a.s.c.QuerySenderListener QuerySenderListener done.
+2019-05-29 10:04:36.443 INFO  (Thread-16) [   ] o.a.s.u.DirectUpdateHandler2 end_commit_flush
+2019-05-29 10:04:36.518 INFO  (searcherExecutor-10-thread-1) [   ] o.a.s.c.SolrCore [mywenda] Registered new searcher Searcher@63d056d2[mywenda] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_9(8.1.0):C23:[diagnostics={os=Windows 10, java.vendor=Oracle Corporation, java.version=1.8.0_131, java.vm.version=25.131-b11, lucene.version=8.1.0, os.arch=amd64, java.runtime.version=1.8.0_131-b11, source=flush, os.version=10.0, timestamp=1559124276084}]:[attributes={Lucene50StoredFieldsFormat.mode=BEST_SPEED}])))}
+2019-05-29 10:04:36.522 INFO  (Thread-16) [   ] o.a.s.h.d.SimplePropertiesWriter Read dataimport.properties
+2019-05-29 10:04:36.525 INFO  (Thread-16) [   ] o.a.s.h.d.SimplePropertiesWriter Wrote last indexed time to dataimport.properties
+2019-05-29 10:04:36.526 INFO  (Thread-16) [   ] o.a.s.h.d.DocBuilder Time taken = 0:0:0.855
+2019-05-29 10:04:36.526 INFO  (Thread-16) [   ] o.a.s.u.p.LogUpdateProcessorFactory [mywenda]  webapp=/solr path=/dataimport params={core=mywenda&indent=on&commit=true&name=dataimport&clean=true&wt=json&command=full-import&entity=question&_=1559123766344&verbose=false} status=0 QTime=4{deleteByQuery=*:* (-1634860296485994496),add=[1 (1634860296551006208), 2 (1634860296744992768), 3 (1634860296747089920), 4 (1634860296749187072), 5 (1634860296752332800), 6 (1634860296755478528), 7 (1634860296757575680), 8 (1634860296761769984), 9 (1634860296764915712), 10 (1634860296765964288), ... (23 adds)],commit=} 0 869
+2019-05-29 10:04:37.963 INFO  (qtp203849460-16) [   x:mywenda] o.a.s.c.S.Request [mywenda]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1559123766344} status=0 QTime=0
+2019-05-29 10:04:46.060 INFO  (qtp203849460-24) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1559123754152} status=0 QTime=0
+2019-05-29 10:04:46.103 INFO  (qtp203849460-16) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1559123754153} status=0 QTime=39
+2019-05-29 10:04:47.732 INFO  (qtp203849460-19) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1559123754152} status=0 QTime=0
+2019-05-29 10:04:47.743 INFO  (qtp203849460-19) [   x:mywenda] o.a.s.c.S.Request [mywenda]  webapp=/solr path=/admin/mbeans params={cat=QUERY&wt=json&_=1559123766344} status=0 QTime=1
+2019-05-29 10:04:47.772 INFO  (qtp203849460-16) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1559123754153} status=0 QTime=39
+2019-05-29 10:04:47.810 INFO  (qtp203849460-15) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1559123754152} status=0 QTime=0
+2019-05-29 10:04:47.825 INFO  (qtp203849460-15) [   x:mywenda] o.a.s.c.S.Request [mywenda]  webapp=/solr path=/admin/mbeans params={cat=QUERY&wt=json&_=1559123766344} status=0 QTime=0
+2019-05-29 10:04:47.832 INFO  (qtp203849460-15) [   x:mywenda] o.a.s.c.S.Request [mywenda]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=show-config&_=1559123766344} status=0 QTime=1
+2019-05-29 10:04:47.849 INFO  (qtp203849460-19) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1559123754153} status=0 QTime=36
+2019-05-29 10:04:47.854 INFO  (qtp203849460-24) [   x:mywenda] o.a.s.c.S.Request [mywenda]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1559123766344} status=0 QTime=0
+2019-05-29 10:04:49.890 INFO  (qtp203849460-24) [   x:mywenda] o.a.s.h.d.DataImporter Loading DIH Configuration: data-config.xml
+2019-05-29 10:04:49.893 INFO  (qtp203849460-24) [   x:mywenda] o.a.s.h.d.c.DIHConfiguration id is a required field in SolrSchema . But not found in DataConfig
+2019-05-29 10:04:49.893 INFO  (qtp203849460-24) [   x:mywenda] o.a.s.h.d.DataImporter Data Configuration loaded successfully
+2019-05-29 10:04:49.893 INFO  (qtp203849460-24) [   x:mywenda] o.a.s.c.S.Request [mywenda]  webapp=/solr path=/dataimport params={core=mywenda&indent=on&commit=true&name=dataimport&clean=false&wt=json&command=full-import&_=1559123766344&verbose=false} status=0 QTime=4
+2019-05-29 10:04:49.896 INFO  (Thread-17) [   ] o.a.s.h.d.DataImporter Starting Full Import
+2019-05-29 10:04:49.896 INFO  (Thread-17) [   ] o.a.s.h.d.SimplePropertiesWriter Read dataimport.properties
+2019-05-29 10:04:49.899 INFO  (qtp203849460-19) [   x:mywenda] o.a.s.c.S.Request [mywenda]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1559123766344} status=0 QTime=0
+2019-05-29 10:04:49.900 INFO  (Thread-17) [   ] o.a.s.h.d.JdbcDataSource Creating a connection for entity question with URL: jdbc:mysql://localhost:3306/wenda
+2019-05-29 10:04:49.907 INFO  (Thread-17) [   ] o.a.s.h.d.JdbcDataSource Time taken for getConnection(): 7
+2019-05-29 10:04:49.969 INFO  (Thread-17) [   ] o.a.s.h.d.DocBuilder Import completed successfully
+2019-05-29 10:04:49.969 INFO  (Thread-17) [   ] o.a.s.u.DirectUpdateHandler2 start commit{_version_=1634860311478534144,optimize=false,openSearcher=true,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+2019-05-29 10:04:49.969 INFO  (Thread-17) [   ] o.a.s.u.SolrIndexWriter Calling setCommitData with IW:org.apache.solr.update.SolrIndexWriter@35bc638d commitCommandVersion:1634860311478534144
+2019-05-29 10:04:50.269 INFO  (Thread-17) [   ] o.a.s.s.SolrIndexSearcher Opening [Searcher@71739361[mywenda] main]
+2019-05-29 10:04:50.270 INFO  (searcherExecutor-10-thread-1) [   ] o.a.s.c.QuerySenderListener QuerySenderListener sending requests to Searcher@71739361[mywenda] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_a(8.1.0):C23:[diagnostics={os=Windows 10, java.vendor=Oracle Corporation, java.version=1.8.0_131, java.vm.version=25.131-b11, lucene.version=8.1.0, os.arch=amd64, java.runtime.version=1.8.0_131-b11, source=flush, os.version=10.0, timestamp=1559124289995}]:[attributes={Lucene50StoredFieldsFormat.mode=BEST_SPEED}])))}
+2019-05-29 10:04:50.270 INFO  (searcherExecutor-10-thread-1) [   ] o.a.s.c.QuerySenderListener QuerySenderListener done.
+2019-05-29 10:04:50.279 INFO  (Thread-17) [   ] o.a.s.u.DirectUpdateHandler2 end_commit_flush
+2019-05-29 10:04:50.296 INFO  (searcherExecutor-10-thread-1) [   ] o.a.s.c.SolrCore [mywenda] Registered new searcher Searcher@71739361[mywenda] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_a(8.1.0):C23:[diagnostics={os=Windows 10, java.vendor=Oracle Corporation, java.version=1.8.0_131, java.vm.version=25.131-b11, lucene.version=8.1.0, os.arch=amd64, java.runtime.version=1.8.0_131-b11, source=flush, os.version=10.0, timestamp=1559124289995}]:[attributes={Lucene50StoredFieldsFormat.mode=BEST_SPEED}])))}
+2019-05-29 10:04:50.315 INFO  (Thread-17) [   ] o.a.s.h.d.SimplePropertiesWriter Read dataimport.properties
+2019-05-29 10:04:50.316 INFO  (Thread-17) [   ] o.a.s.h.d.SimplePropertiesWriter Wrote last indexed time to dataimport.properties
+2019-05-29 10:04:50.316 INFO  (Thread-17) [   ] o.a.s.h.d.DocBuilder Time taken = 0:0:0.420
+2019-05-29 10:04:50.316 INFO  (Thread-17) [   ] o.a.s.u.p.LogUpdateProcessorFactory [mywenda]  webapp=/solr path=/dataimport params={core=mywenda&indent=on&commit=true&name=dataimport&clean=false&wt=json&command=full-import&_=1559123766344&verbose=false} status=0 QTime=4{add=[1 (1634860311414571008), 2 (1634860311424008192), 3 (1634860311425056768), 4 (1634860311426105344), 5 (1634860311426105345), 6 (1634860311428202496), 7 (1634860311429251072), 8 (1634860311430299648), 9 (1634860311431348224), 10 (1634860311432396800), ... (23 adds)],commit=} 0 427
+2019-05-29 10:04:51.041 INFO  (qtp203849460-24) [   x:mywenda] o.a.s.c.S.Request [mywenda]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1559123766344} status=0 QTime=0
+2019-05-29 10:04:55.721 INFO  (qtp203849460-19) [   x:mywenda] o.a.s.h.d.DataImporter Loading DIH Configuration: data-config.xml
+2019-05-29 10:04:55.723 INFO  (qtp203849460-19) [   x:mywenda] o.a.s.h.d.c.DIHConfiguration id is a required field in SolrSchema . But not found in DataConfig
+2019-05-29 10:04:55.723 INFO  (qtp203849460-19) [   x:mywenda] o.a.s.h.d.DataImporter Data Configuration loaded successfully
+2019-05-29 10:04:55.723 INFO  (qtp203849460-19) [   x:mywenda] o.a.s.c.S.Request [mywenda]  webapp=/solr path=/dataimport params={core=mywenda&indent=on&commit=true&name=dataimport&clean=true&wt=json&command=full-import&_=1559123766344&verbose=false} status=0 QTime=3
+2019-05-29 10:04:55.724 INFO  (Thread-18) [   ] o.a.s.h.d.DataImporter Starting Full Import
+2019-05-29 10:04:55.724 INFO  (Thread-18) [   ] o.a.s.h.d.SimplePropertiesWriter Read dataimport.properties
+2019-05-29 10:04:55.729 INFO  (qtp203849460-24) [   x:mywenda] o.a.s.c.S.Request [mywenda]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1559123766344} status=0 QTime=0
+2019-05-29 10:04:55.734 INFO  (Thread-18) [   ] o.a.s.s.SolrIndexSearcher Opening [Searcher@15fc3af8[mywenda] realtime]
+2019-05-29 10:04:55.735 INFO  (Thread-18) [   ] o.a.s.h.d.JdbcDataSource Creating a connection for entity question with URL: jdbc:mysql://localhost:3306/wenda
+2019-05-29 10:04:55.743 INFO  (Thread-18) [   ] o.a.s.h.d.JdbcDataSource Time taken for getConnection(): 7
+2019-05-29 10:04:55.793 INFO  (Thread-18) [   ] o.a.s.h.d.DocBuilder Import completed successfully
+2019-05-29 10:04:55.793 INFO  (Thread-18) [   ] o.a.s.u.DirectUpdateHandler2 start commit{_version_=1634860317585440768,optimize=false,openSearcher=true,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+2019-05-29 10:04:55.794 INFO  (Thread-18) [   ] o.a.s.u.SolrIndexWriter Calling setCommitData with IW:org.apache.solr.update.SolrIndexWriter@35bc638d commitCommandVersion:1634860317585440768
+2019-05-29 10:04:56.146 INFO  (Thread-18) [   ] o.a.s.s.SolrIndexSearcher Opening [Searcher@49e8d2f4[mywenda] main]
+2019-05-29 10:04:56.147 INFO  (searcherExecutor-10-thread-1) [   ] o.a.s.c.QuerySenderListener QuerySenderListener sending requests to Searcher@49e8d2f4[mywenda] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_b(8.1.0):C23:[diagnostics={os=Windows 10, java.vendor=Oracle Corporation, java.version=1.8.0_131, java.vm.version=25.131-b11, lucene.version=8.1.0, os.arch=amd64, java.runtime.version=1.8.0_131-b11, source=flush, os.version=10.0, timestamp=1559124295812}]:[attributes={Lucene50StoredFieldsFormat.mode=BEST_SPEED}])))}
+2019-05-29 10:04:56.147 INFO  (searcherExecutor-10-thread-1) [   ] o.a.s.c.QuerySenderListener QuerySenderListener done.
+2019-05-29 10:04:56.149 INFO  (Thread-18) [   ] o.a.s.u.DirectUpdateHandler2 end_commit_flush
+2019-05-29 10:04:56.151 INFO  (searcherExecutor-10-thread-1) [   ] o.a.s.c.SolrCore [mywenda] Registered new searcher Searcher@49e8d2f4[mywenda] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_b(8.1.0):C23:[diagnostics={os=Windows 10, java.vendor=Oracle Corporation, java.version=1.8.0_131, java.vm.version=25.131-b11, lucene.version=8.1.0, os.arch=amd64, java.runtime.version=1.8.0_131-b11, source=flush, os.version=10.0, timestamp=1559124295812}]:[attributes={Lucene50StoredFieldsFormat.mode=BEST_SPEED}])))}
+2019-05-29 10:04:56.166 INFO  (Thread-18) [   ] o.a.s.h.d.SimplePropertiesWriter Read dataimport.properties
+2019-05-29 10:04:56.167 INFO  (Thread-18) [   ] o.a.s.h.d.SimplePropertiesWriter Wrote last indexed time to dataimport.properties
+2019-05-29 10:04:56.167 INFO  (Thread-18) [   ] o.a.s.h.d.DocBuilder Time taken = 0:0:0.442
+2019-05-29 10:04:56.167 INFO  (Thread-18) [   ] o.a.s.u.p.LogUpdateProcessorFactory [mywenda]  webapp=/solr path=/dataimport params={core=mywenda&indent=on&commit=true&name=dataimport&clean=true&wt=json&command=full-import&_=1559123766344&verbose=false} status=0 QTime=3{deleteByQuery=*:* (-1634860317514137600),add=[1 (1634860317534060544), 2 (1634860317539303424), 3 (1634860317540352000), 4 (1634860317541400576), 5 (1634860317542449152), 6 (1634860317543497728), 7 (1634860317544546304), 8 (1634860317544546305), 9 (1634860317545594880), 10 (1634860317546643456), ... (23 adds)],commit=} 0 446
+2019-05-29 10:04:58.666 INFO  (qtp203849460-16) [   x:mywenda] o.a.s.c.S.Request [mywenda]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1559123766344} status=0 QTime=0
+2019-05-29 10:05:02.053 INFO  (qtp203849460-15) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1559123754152} status=0 QTime=0
+2019-05-29 10:05:02.108 INFO  (qtp203849460-24) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1559123754153} status=0 QTime=52
+2019-05-29 10:05:03.546 INFO  (qtp203849460-16) [   x:mywenda] o.a.s.c.S.Request [mywenda]  webapp=/solr path=/select params={q=*:*&_=1559124286015} hits=23 status=0 QTime=1
+2019-05-29 10:05:08.746 INFO  (qtp203849460-16) [   x:mywenda] o.a.s.c.S.Request [mywenda]  webapp=/solr path=/select params={q=*:*&rows=100&_=1559124286015} hits=23 status=0 QTime=0
+2019-05-29 10:05:16.462 INFO  (qtp203849460-24) [   x:mywenda] o.a.s.c.S.Request [mywenda]  webapp=/solr path=/select params={q=java&hl=true&hl.simple.post=</em>&fl=question_content,question_title&start=0&hl.fl=question_title,question_content&rows=10&wt=javabin&version=2&hl.simple.pre=<em>} hits=4 status=0 QTime=90
+2019-05-29 10:06:47.808 INFO  (qtp203849460-19) [   x:mywenda] o.a.s.c.S.Request [mywenda]  webapp=/solr path=/select params={q=java&hl=true&hl.simple.post=</em>&fl=question_content,question_title&start=0&hl.fl=question_title,question_content&rows=10&wt=javabin&version=2&hl.simple.pre=<em>} hits=4 status=0 QTime=20
+2019-05-29 10:07:37.774 INFO  (qtp203849460-19) [   x:mywenda] o.a.s.c.S.Request [mywenda]  webapp=/solr path=/select params={q=并发&hl=true&hl.simple.post=</em>&fl=question_content,question_title&start=0&hl.fl=question_title,question_content&rows=10&wt=javabin&version=2&hl.simple.pre=<em>} hits=2 status=0 QTime=13
+2019-05-29 10:08:01.491 INFO  (qtp203849460-16) [   x:mywenda] o.a.s.c.S.Request [mywenda]  webapp=/solr path=/select params={q=并发&hl=true&hl.simple.post=</em>&fl=question_content,question_title&start=0&hl.fl=question_title,question_content&rows=10&wt=javabin&version=2&hl.simple.pre=<em>} hits=2 status=0 QTime=13
+2019-05-29 10:09:16.934 INFO  (qtp203849460-22) [   x:mywenda] o.a.s.c.S.Request [mywenda]  webapp=/solr path=/select params={q=并发&hl=true&hl.simple.post=</em>&fl=question_content,question_title&start=0&hl.fl=question_title,question_content&rows=10&wt=javabin&version=2&hl.simple.pre=<em>} hits=2 status=0 QTime=11
+2019-05-29 10:11:20.029 INFO  (qtp203849460-20) [   x:mywenda] o.a.s.c.S.Request [mywenda]  webapp=/solr path=/select params={q=并发&hl=true&hl.simple.post=</em>&fl=question_content,question_title&start=0&hl.fl=question_title,question_content&rows=10&wt=javabin&version=2&hl.simple.pre=<em>} hits=2 status=0 QTime=11
+2019-05-29 10:11:21.795 INFO  (qtp203849460-23) [   x:mywenda] o.a.s.c.S.Request [mywenda]  webapp=/solr path=/select params={q=并发&hl=true&hl.simple.post=</em>&fl=question_content,question_title&start=0&hl.fl=question_title,question_content&rows=10&wt=javabin&version=2&hl.simple.pre=<em>} hits=2 status=0 QTime=11
+2019-05-29 10:12:04.862 INFO  (qtp203849460-20) [   x:mywenda] o.a.s.c.S.Request [mywenda]  webapp=/solr path=/select params={q=并发&hl=true&hl.simple.post=</em>&fl=question_content,question_title&start=0&hl.fl=question_title,question_content&rows=10&wt=javabin&version=2&hl.simple.pre=<em>} hits=2 status=0 QTime=8
+2019-05-29 10:13:34.870 INFO  (qtp203849460-24) [   x:mywenda] o.a.s.c.S.Request [mywenda]  webapp=/solr path=/select params={q=java&hl=true&hl.simple.post=</em>&fl=question_content,question_title&start=0&hl.fl=question_title,question_content&rows=10&wt=javabin&version=2&hl.simple.pre=<em>} hits=4 status=0 QTime=9
+2019-05-29 10:13:50.826 INFO  (qtp203849460-17) [   x:mywenda] o.a.s.c.S.Request [mywenda]  webapp=/solr path=/select params={q=java&hl=true&hl.simple.post=</em>&fl=question_content,question_title&start=0&hl.fl=question_title,question_content&rows=10&wt=javabin&version=2&hl.simple.pre=<em>} hits=4 status=0 QTime=13
+2019-05-29 11:12:56.250 INFO  (qtp203849460-22) [   x:mywenda] o.a.s.c.S.Request [mywenda]  webapp=/solr path=/select params={q=中国&hl=true&hl.simple.post=</em>&fl=question_content,question_title&start=0&hl.fl=question_title,question_content&rows=10&wt=javabin&version=2&hl.simple.pre=<em>} hits=1 status=0 QTime=5
+2019-05-29 11:13:09.930 INFO  (qtp203849460-16) [   x:mywenda] o.a.s.c.S.Request [mywenda]  webapp=/solr path=/select params={q=中国&hl=true&hl.simple.post=</em>&fl=question_content,question_title&start=0&hl.fl=question_title,question_content&rows=10&wt=javabin&version=2&hl.simple.pre=<em>} hits=1 status=0 QTime=2
+2019-05-29 11:14:44.515 INFO  (qtp203849460-21) [   x:mywenda] o.a.s.c.S.Request [mywenda]  webapp=/solr path=/select params={q=中国&hl=true&hl.simple.post=</em>&fl=question_content,question_title&start=0&hl.fl=question_title,question_content&rows=10&wt=javabin&version=2&hl.simple.pre=<em>} hits=1 status=0 QTime=7
+2019-05-29 11:15:43.381 INFO  (qtp203849460-23) [   x:mywenda] o.a.s.u.p.LogUpdateProcessorFactory [mywenda]  webapp=/solr path=/update params={wt=javabin&version=2}{add=[24 (1634864771394174976)]} 0 771
+2019-05-29 11:15:43.428 INFO  (qtp203849460-21) [   x:mywenda] o.a.s.u.DirectUpdateHandler2 start commit{_version_=1634864771553558528,optimize=false,openSearcher=true,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+2019-05-29 11:15:43.428 INFO  (qtp203849460-21) [   x:mywenda] o.a.s.u.SolrIndexWriter Calling setCommitData with IW:org.apache.solr.update.SolrIndexWriter@35bc638d commitCommandVersion:1634864771553558528
+2019-05-29 11:15:44.796 INFO  (qtp203849460-21) [   x:mywenda] o.a.s.s.SolrIndexSearcher Opening [Searcher@18e37a4b[mywenda] main]
+2019-05-29 11:15:44.799 INFO  (searcherExecutor-10-thread-1-processing-x:mywenda) [   x:mywenda] o.a.s.c.QuerySenderListener QuerySenderListener sending requests to Searcher@18e37a4b[mywenda] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_b(8.1.0):C23:[diagnostics={os=Windows 10, java.vendor=Oracle Corporation, java.version=1.8.0_131, java.vm.version=25.131-b11, lucene.version=8.1.0, os.arch=amd64, java.runtime.version=1.8.0_131-b11, source=flush, os.version=10.0, timestamp=1559124295812}]:[attributes={Lucene50StoredFieldsFormat.mode=BEST_SPEED}]) Uninverting(_c(8.1.0):C1:[diagnostics={os=Windows 10, java.vendor=Oracle Corporation, java.version=1.8.0_131, java.vm.version=25.131-b11, lucene.version=8.1.0, os.arch=amd64, java.runtime.version=1.8.0_131-b11, source=flush, os.version=10.0, timestamp=1559128543439}]:[attributes={Lucene50StoredFieldsFormat.mode=BEST_SPEED}])))}
+2019-05-29 11:15:44.799 INFO  (searcherExecutor-10-thread-1-processing-x:mywenda) [   x:mywenda] o.a.s.c.QuerySenderListener QuerySenderListener done.
+2019-05-29 11:15:44.800 INFO  (qtp203849460-21) [   x:mywenda] o.a.s.u.DirectUpdateHandler2 end_commit_flush
+2019-05-29 11:15:44.806 INFO  (searcherExecutor-10-thread-1-processing-x:mywenda) [   x:mywenda] o.a.s.c.SolrCore [mywenda] Registered new searcher Searcher@18e37a4b[mywenda] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_b(8.1.0):C23:[diagnostics={os=Windows 10, java.vendor=Oracle Corporation, java.version=1.8.0_131, java.vm.version=25.131-b11, lucene.version=8.1.0, os.arch=amd64, java.runtime.version=1.8.0_131-b11, source=flush, os.version=10.0, timestamp=1559124295812}]:[attributes={Lucene50StoredFieldsFormat.mode=BEST_SPEED}]) Uninverting(_c(8.1.0):C1:[diagnostics={os=Windows 10, java.vendor=Oracle Corporation, java.version=1.8.0_131, java.vm.version=25.131-b11, lucene.version=8.1.0, os.arch=amd64, java.runtime.version=1.8.0_131-b11, source=flush, os.version=10.0, timestamp=1559128543439}]:[attributes={Lucene50StoredFieldsFormat.mode=BEST_SPEED}])))}
+2019-05-29 11:15:44.806 INFO  (qtp203849460-21) [   x:mywenda] o.a.s.u.p.LogUpdateProcessorFactory [mywenda]  webapp=/solr path=/update params={waitSearcher=true&commit=true&softCommit=false&wt=javabin&version=2}{commit=} 0 1378
+2019-05-29 11:15:47.667 INFO  (qtp203849460-23) [   x:mywenda] o.a.s.c.S.Request [mywenda]  webapp=/solr path=/select params={q=中国&hl=true&hl.simple.post=</em>&fl=question_content,question_title&start=0&hl.fl=question_title,question_content&rows=10&wt=javabin&version=2&hl.simple.pre=<em>} hits=2 status=0 QTime=29
+2019-05-29 11:16:04.796 INFO  (qtp203849460-21) [   x:mywenda] o.a.s.c.S.Request [mywenda]  webapp=/solr path=/select params={q=中国+&hl=true&hl.simple.post=</em>&fl=question_content,question_title&start=0&hl.fl=question_title,question_content&rows=10&wt=javabin&version=2&hl.simple.pre=<em>} hits=2 status=0 QTime=4
+2019-05-29 11:16:27.514 INFO  (qtp203849460-23) [   x:mywenda] o.a.s.c.S.Request [mywenda]  webapp=/solr path=/select params={q=问题&hl=true&hl.simple.post=</em>&fl=question_content,question_title&start=0&hl.fl=question_title,question_content&rows=10&wt=javabin&version=2&hl.simple.pre=<em>} hits=2 status=0 QTime=13
+2019-05-29 11:16:34.096 INFO  (qtp203849460-21) [   x:mywenda] o.a.s.c.S.Request [mywenda]  webapp=/solr path=/select params={q=java&hl=true&hl.simple.post=</em>&fl=question_content,question_title&start=0&hl.fl=question_title,question_content&rows=10&wt=javabin&version=2&hl.simple.pre=<em>} hits=4 status=0 QTime=17
+2019-05-29 11:16:47.349 INFO  (qtp203849460-23) [   x:mywenda] o.a.s.c.S.Request [mywenda]  webapp=/solr path=/select params={q=中国&hl=true&hl.simple.post=</em>&fl=question_content,question_title&start=0&hl.fl=question_title,question_content&rows=10&wt=javabin&version=2&hl.simple.pre=<em>} hits=2 status=0 QTime=3
+2019-05-29 11:17:11.308 INFO  (qtp203849460-21) [   x:mywenda] o.a.s.c.S.Request [mywenda]  webapp=/solr path=/select params={q=你好清华&hl=true&hl.simple.post=</em>&fl=question_content,question_title&start=0&hl.fl=question_title,question_content&rows=10&wt=javabin&version=2&hl.simple.pre=<em>} hits=1 status=0 QTime=3
+2019-05-29 11:17:15.606 INFO  (qtp203849460-24) [   x:mywenda] o.a.s.c.S.Request [mywenda]  webapp=/solr path=/select params={q=清华&hl=true&hl.simple.post=</em>&fl=question_content,question_title&start=0&hl.fl=question_title,question_content&rows=10&wt=javabin&version=2&hl.simple.pre=<em>} hits=0 status=0 QTime=0
+2019-05-29 11:17:19.925 INFO  (qtp203849460-21) [   x:mywenda] o.a.s.c.S.Request [mywenda]  webapp=/solr path=/select params={q=你好清华&hl=true&hl.simple.post=</em>&fl=question_content,question_title&start=0&hl.fl=question_title,question_content&rows=10&wt=javabin&version=2&hl.simple.pre=<em>} hits=1 status=0 QTime=1
+2019-05-29 11:17:31.667 INFO  (qtp203849460-24) [   x:mywenda] o.a.s.c.S.Request [mywenda]  webapp=/solr path=/select params={q=刘备&hl=true&hl.simple.post=</em>&fl=question_content,question_title&start=0&hl.fl=question_title,question_content&rows=10&wt=javabin&version=2&hl.simple.pre=<em>} hits=0 status=0 QTime=1
+2019-05-29 11:17:39.371 INFO  (qtp203849460-21) [   x:mywenda] o.a.s.c.S.Request [mywenda]  webapp=/solr path=/select params={q=中国&hl=true&hl.simple.post=</em>&fl=question_content,question_title&start=0&hl.fl=question_title,question_content&rows=10&wt=javabin&version=2&hl.simple.pre=<em>} hits=2 status=0 QTime=4
+2019-05-29 11:25:22.091 INFO  (qtp203849460-15) [   x:mywenda] o.a.s.c.S.Request [mywenda]  webapp=/solr path=/select params={q=中国&hl=true&hl.simple.post=</em>&fl=question_content,question_title&start=0&hl.fl=question_title,question_content&rows=10&wt=javabin&version=2&hl.simple.pre=<em>} hits=2 status=0 QTime=14
+2019-05-29 11:25:24.534 INFO  (qtp203849460-16) [   x:mywenda] o.a.s.c.S.Request [mywenda]  webapp=/solr path=/select params={q=中国&hl=true&hl.simple.post=</em>&fl=question_content,question_title&start=0&hl.fl=question_title,question_content&rows=10&wt=javabin&version=2&hl.simple.pre=<em>} hits=2 status=0 QTime=6
+2019-05-29 11:27:36.469 INFO  (qtp203849460-17) [   x:mywenda] o.a.s.u.p.LogUpdateProcessorFactory [mywenda]  webapp=/solr path=/update params={wt=javabin&version=2}{add=[25 (1634865519176712192)]} 0 53
+2019-05-29 11:27:36.475 INFO  (qtp203849460-21) [   x:mywenda] o.a.s.u.DirectUpdateHandler2 start commit{_version_=1634865519237529600,optimize=false,openSearcher=true,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+2019-05-29 11:27:36.475 INFO  (qtp203849460-21) [   x:mywenda] o.a.s.u.SolrIndexWriter Calling setCommitData with IW:org.apache.solr.update.SolrIndexWriter@35bc638d commitCommandVersion:1634865519237529600
+2019-05-29 11:27:36.835 INFO  (qtp203849460-21) [   x:mywenda] o.a.s.s.SolrIndexSearcher Opening [Searcher@2c9cd192[mywenda] main]
+2019-05-29 11:27:36.838 INFO  (searcherExecutor-10-thread-1-processing-x:mywenda) [   x:mywenda] o.a.s.c.QuerySenderListener QuerySenderListener sending requests to Searcher@2c9cd192[mywenda] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_b(8.1.0):C23:[diagnostics={os=Windows 10, java.vendor=Oracle Corporation, java.version=1.8.0_131, java.vm.version=25.131-b11, lucene.version=8.1.0, os.arch=amd64, java.runtime.version=1.8.0_131-b11, source=flush, os.version=10.0, timestamp=1559124295812}]:[attributes={Lucene50StoredFieldsFormat.mode=BEST_SPEED}]) Uninverting(_c(8.1.0):C1:[diagnostics={os=Windows 10, java.vendor=Oracle Corporation, java.version=1.8.0_131, java.vm.version=25.131-b11, lucene.version=8.1.0, os.arch=amd64, java.runtime.version=1.8.0_131-b11, source=flush, os.version=10.0, timestamp=1559128543439}]:[attributes={Lucene50StoredFieldsFormat.mode=BEST_SPEED}]) Uninverting(_d(8.1.0):C1:[diagnostics={os=Windows 10, java.vendor=Oracle Corporation, java.version=1.8.0_131, java.vm.version=25.131-b11, lucene.version=8.1.0, os.arch=amd64, java.runtime.version=1.8.0_131-b11, source=flush, os.version=10.0, timestamp=1559129256508}]:[attributes={Lucene50StoredFieldsFormat.mode=BEST_SPEED}])))}
+2019-05-29 11:27:36.838 INFO  (searcherExecutor-10-thread-1-processing-x:mywenda) [   x:mywenda] o.a.s.c.QuerySenderListener QuerySenderListener done.
+2019-05-29 11:27:36.843 INFO  (qtp203849460-21) [   x:mywenda] o.a.s.u.DirectUpdateHandler2 end_commit_flush
+2019-05-29 11:27:36.844 INFO  (searcherExecutor-10-thread-1-processing-x:mywenda) [   x:mywenda] o.a.s.c.SolrCore [mywenda] Registered new searcher Searcher@2c9cd192[mywenda] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_b(8.1.0):C23:[diagnostics={os=Windows 10, java.vendor=Oracle Corporation, java.version=1.8.0_131, java.vm.version=25.131-b11, lucene.version=8.1.0, os.arch=amd64, java.runtime.version=1.8.0_131-b11, source=flush, os.version=10.0, timestamp=1559124295812}]:[attributes={Lucene50StoredFieldsFormat.mode=BEST_SPEED}]) Uninverting(_c(8.1.0):C1:[diagnostics={os=Windows 10, java.vendor=Oracle Corporation, java.version=1.8.0_131, java.vm.version=25.131-b11, lucene.version=8.1.0, os.arch=amd64, java.runtime.version=1.8.0_131-b11, source=flush, os.version=10.0, timestamp=1559128543439}]:[attributes={Lucene50StoredFieldsFormat.mode=BEST_SPEED}]) Uninverting(_d(8.1.0):C1:[diagnostics={os=Windows 10, java.vendor=Oracle Corporation, java.version=1.8.0_131, java.vm.version=25.131-b11, lucene.version=8.1.0, os.arch=amd64, java.runtime.version=1.8.0_131-b11, source=flush, os.version=10.0, timestamp=1559129256508}]:[attributes={Lucene50StoredFieldsFormat.mode=BEST_SPEED}])))}
+2019-05-29 11:27:36.845 INFO  (qtp203849460-21) [   x:mywenda] o.a.s.u.p.LogUpdateProcessorFactory [mywenda]  webapp=/solr path=/update params={waitSearcher=true&commit=true&softCommit=false&wt=javabin&version=2}{commit=} 0 370
+2019-05-29 11:27:43.895 INFO  (qtp203849460-17) [   x:mywenda] o.a.s.c.S.Request [mywenda]  webapp=/solr path=/select params={q=中国&hl=true&hl.simple.post=</em>&fl=question_content,question_title&start=0&hl.fl=question_title,question_content&rows=10&wt=javabin&version=2&hl.simple.pre=<em>} hits=3 status=0 QTime=38
